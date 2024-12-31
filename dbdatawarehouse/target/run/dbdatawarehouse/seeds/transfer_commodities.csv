@@ -1,0 +1,14 @@
+
+    
+    
+    
+    create table "dbdatawarehouse"."public"."transfer_commodities" ("date" date,"symbol" text,"action" text,"quantity" integer)
+  ;
+    -- dbt seed --
+    
+          insert into "dbdatawarehouse"."public"."transfer_commodities" ("date", "symbol", "action", "quantity") values
+          (%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s)
+      
+
+;
+  
