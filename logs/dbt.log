@@ -1,0 +1,1136 @@
+[0m14:42:09.731438 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EDDFF1F2C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EDDFF1D670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EDDBAC15E0>]}
+
+
+============================== 14:42:09.746971 | 87ee2ff8-4b92-435c-8850-a7b0efbf178a ==============================
+[0m14:42:09.746971 [info ] [MainThread]: Running with dbt=1.9.1
+[0m14:42:09.747976 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:42:09.965284 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'WindowsPath'.. Dictionary: {'dir': WindowsPath('C:/Users/Tayhana Rangel/.dbt')}
+[0m14:42:09.966286 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m14:42:24.830539 [debug] [MainThread]: Starter project path: C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\.venv\Lib\site-packages\dbt\include\starter_project
+[0m14:42:24.857648 [info ] [MainThread]: 
+Your new dbt project "dbdatawarehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:42:24.858582 [info ] [MainThread]: Setting up your profile.
+[0m14:44:23.154719 [info ] [MainThread]: Profile dbdatawarehouse written to C:\Users\Tayhana Rangel\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:44:23.156716 [debug] [MainThread]: Command `dbt init` succeeded at 14:44:23.155638 after 133.77 seconds
+[0m14:44:23.156716 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EDE13F79B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EDE1112EA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EDE144B3E0>]}
+[0m14:44:23.157729 [debug] [MainThread]: Flushing usage events
+[0m14:44:24.167149 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:01:17.656292 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F2E7E1B9E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F2E4D71880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F2E46F8770>]}
+
+
+============================== 15:01:17.660752 | 19e7ec23-27aa-4880-901a-a4685d6f98dd ==============================
+[0m15:01:17.660752 [info ] [MainThread]: Running with dbt=1.9.1
+[0m15:01:17.661756 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m15:01:17.688515 [info ] [MainThread]: dbt version: 1.9.1
+[0m15:01:17.689475 [info ] [MainThread]: python version: 3.12.8
+[0m15:01:17.690430 [info ] [MainThread]: python path: C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\.venv\Scripts\python.exe
+[0m15:01:17.690430 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m15:01:17.752115 [info ] [MainThread]: Using profiles dir at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt
+[0m15:01:17.752977 [info ] [MainThread]: Using profiles.yml file at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\profiles.yml
+[0m15:01:17.753882 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbt_project.yml
+[0m15:01:17.764412 [info ] [MainThread]: adapter type: postgres
+[0m15:01:17.765435 [info ] [MainThread]: adapter version: 1.9.0
+[0m15:01:17.766425 [info ] [MainThread]: Configuration:
+[0m15:01:17.767429 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:01:17.767429 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m15:01:17.768420 [info ] [MainThread]: Required dependencies:
+[0m15:01:17.769442 [debug] [MainThread]: Executing "git --help"
+[0m15:01:17.796866 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:01:17.797905 [debug] [MainThread]: STDERR: "b''"
+[0m15:01:17.797905 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:01:17.798869 [info ] [MainThread]: Connection:
+[0m15:01:17.799866 [info ] [MainThread]:   host: dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com
+[0m15:01:17.799866 [info ] [MainThread]:   port: 5432
+[0m15:01:17.801109 [info ] [MainThread]:   user: postgres123
+[0m15:01:17.802094 [info ] [MainThread]:   database: dbdatawarehouse
+[0m15:01:17.802094 [info ] [MainThread]:   schema: public
+[0m15:01:17.802094 [info ] [MainThread]:   connect_timeout: 10
+[0m15:01:17.803600 [info ] [MainThread]:   role: None
+[0m15:01:17.804613 [info ] [MainThread]:   search_path: None
+[0m15:01:17.804613 [info ] [MainThread]:   keepalives_idle: 0
+[0m15:01:17.805608 [info ] [MainThread]:   sslmode: None
+[0m15:01:17.806613 [info ] [MainThread]:   sslcert: None
+[0m15:01:17.807619 [info ] [MainThread]:   sslkey: None
+[0m15:01:17.807619 [info ] [MainThread]:   sslrootcert: None
+[0m15:01:17.808607 [info ] [MainThread]:   application_name: dbt
+[0m15:01:17.809611 [info ] [MainThread]:   retries: 1
+[0m15:01:17.810649 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m15:01:17.976764 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m15:01:20.959279 [debug] [MainThread]: Using postgres connection "debug"
+[0m15:01:20.959279 [debug] [MainThread]: On debug: select 1 as id
+[0m15:01:20.960282 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:01:22.715544 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  password authentication failed for user "postgres123"
+connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  SSL/TLS required
+
+[0m15:01:24.288034 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m15:01:24.288034 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m15:01:24.289122 [debug] [MainThread]: On debug: No close available on handle
+[0m15:01:24.289122 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m15:01:24.290041 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m15:01:24.290041 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbt_project.yml> not found
+
+[0m15:01:24.291550 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  password authentication failed for user "postgres123"
+  connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: server closed the connection unexpectedly
+  	This probably means the server terminated abnormally
+  	before or while processing the request.
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m15:01:24.292558 [debug] [MainThread]: Command `dbt debug` failed at 15:01:24.292558 after 6.84 seconds
+[0m15:01:24.292558 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m15:01:24.292558 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F2E7D0E630>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F2E7F00EC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F2E7BB3E60>]}
+[0m15:01:24.292558 [debug] [MainThread]: Flushing usage events
+[0m15:01:25.041841 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:06:24.090983 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025B04A121B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025B06804440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025B04289220>]}
+
+
+============================== 15:06:24.095072 | 38b45ff6-d56f-42e6-8786-2b1048408f84 ==============================
+[0m15:06:24.095072 [info ] [MainThread]: Running with dbt=1.9.1
+[0m15:06:24.096992 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:06:24.107990 [info ] [MainThread]: dbt version: 1.9.1
+[0m15:06:24.109012 [info ] [MainThread]: python version: 3.12.8
+[0m15:06:24.109989 [info ] [MainThread]: python path: C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\.venv\Scripts\python.exe
+[0m15:06:24.109989 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m15:06:24.171766 [info ] [MainThread]: Using profiles dir at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt
+[0m15:06:24.172674 [info ] [MainThread]: Using profiles.yml file at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\profiles.yml
+[0m15:06:24.173239 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbt_project.yml
+[0m15:06:24.174247 [info ] [MainThread]: adapter type: postgres
+[0m15:06:24.175258 [info ] [MainThread]: adapter version: 1.9.0
+[0m15:06:24.175961 [info ] [MainThread]: Configuration:
+[0m15:06:24.176596 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:06:24.177608 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m15:06:24.177608 [info ] [MainThread]: Required dependencies:
+[0m15:06:24.178608 [debug] [MainThread]: Executing "git --help"
+[0m15:06:24.200947 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:06:24.200947 [debug] [MainThread]: STDERR: "b''"
+[0m15:06:24.201972 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:06:24.201972 [info ] [MainThread]: Connection:
+[0m15:06:24.203251 [info ] [MainThread]:   host: dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com
+[0m15:06:24.204267 [info ] [MainThread]:   port: 5432
+[0m15:06:24.204758 [info ] [MainThread]:   user: postgres123
+[0m15:06:24.205772 [info ] [MainThread]:   database: dbdatawarehouse
+[0m15:06:24.206771 [info ] [MainThread]:   schema: public
+[0m15:06:24.206771 [info ] [MainThread]:   connect_timeout: 10
+[0m15:06:24.207763 [info ] [MainThread]:   role: None
+[0m15:06:24.207763 [info ] [MainThread]:   search_path: None
+[0m15:06:24.208766 [info ] [MainThread]:   keepalives_idle: 0
+[0m15:06:24.209770 [info ] [MainThread]:   sslmode: None
+[0m15:06:24.210764 [info ] [MainThread]:   sslcert: None
+[0m15:06:24.210764 [info ] [MainThread]:   sslkey: None
+[0m15:06:24.211765 [info ] [MainThread]:   sslrootcert: None
+[0m15:06:24.211765 [info ] [MainThread]:   application_name: dbt
+[0m15:06:24.212764 [info ] [MainThread]:   retries: 1
+[0m15:06:24.213766 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m15:06:24.376513 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m15:06:24.422178 [debug] [MainThread]: Using postgres connection "debug"
+[0m15:06:24.422178 [debug] [MainThread]: On debug: select 1 as id
+[0m15:06:24.423167 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:06:26.469529 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  password authentication failed for user "postgres123"
+connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+[0m15:06:27.935401 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m15:06:27.936413 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m15:06:27.937437 [debug] [MainThread]: On debug: No close available on handle
+[0m15:06:27.938413 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m15:06:27.940342 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m15:06:27.941338 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbt_project.yml> not found
+
+[0m15:06:27.943344 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  password authentication failed for user "postgres123"
+  connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: server closed the connection unexpectedly
+  	This probably means the server terminated abnormally
+  	before or while processing the request.
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m15:06:27.945337 [debug] [MainThread]: Command `dbt debug` failed at 15:06:27.945337 after 4.02 seconds
+[0m15:06:27.946329 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m15:06:27.947337 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025B08612E40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025B04BF0B60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025B04A121B0>]}
+[0m15:06:27.947337 [debug] [MainThread]: Flushing usage events
+[0m15:06:29.157431 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:08:53.210670 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BEB0E59CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BEB439DAF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BEB2C85460>]}
+
+
+============================== 15:08:53.214761 | 63b8a5cb-7fb0-4eca-b5e2-4b279c506b42 ==============================
+[0m15:08:53.214761 [info ] [MainThread]: Running with dbt=1.9.1
+[0m15:08:53.215452 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m15:08:53.228898 [info ] [MainThread]: dbt version: 1.9.1
+[0m15:08:53.230174 [info ] [MainThread]: python version: 3.12.8
+[0m15:08:53.231228 [info ] [MainThread]: python path: C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\.venv\Scripts\python.exe
+[0m15:08:53.232180 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m15:08:53.297611 [info ] [MainThread]: Using profiles dir at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt
+[0m15:08:53.298524 [info ] [MainThread]: Using profiles.yml file at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\profiles.yml
+[0m15:08:53.298524 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbt_project.yml
+[0m15:08:53.300522 [info ] [MainThread]: adapter type: postgres
+[0m15:08:53.302500 [info ] [MainThread]: adapter version: 1.9.0
+[0m15:08:53.302500 [info ] [MainThread]: Configuration:
+[0m15:08:53.303451 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:08:53.304525 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m15:08:53.304525 [info ] [MainThread]: Required dependencies:
+[0m15:08:53.305663 [debug] [MainThread]: Executing "git --help"
+[0m15:08:53.327195 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:08:53.328107 [debug] [MainThread]: STDERR: "b''"
+[0m15:08:53.328107 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:08:53.329138 [info ] [MainThread]: Connection:
+[0m15:08:53.329138 [info ] [MainThread]:   host: dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com
+[0m15:08:53.330158 [info ] [MainThread]:   port: 5432
+[0m15:08:53.331236 [info ] [MainThread]:   user: postgres123
+[0m15:08:53.332171 [info ] [MainThread]:   database: dbdatawarehouse
+[0m15:08:53.332171 [info ] [MainThread]:   schema: public
+[0m15:08:53.333460 [info ] [MainThread]:   connect_timeout: 10
+[0m15:08:53.333460 [info ] [MainThread]:   role: None
+[0m15:08:53.334470 [info ] [MainThread]:   search_path: None
+[0m15:08:53.335481 [info ] [MainThread]:   keepalives_idle: 0
+[0m15:08:53.335481 [info ] [MainThread]:   sslmode: None
+[0m15:08:53.336480 [info ] [MainThread]:   sslcert: None
+[0m15:08:53.336480 [info ] [MainThread]:   sslkey: None
+[0m15:08:53.337557 [info ] [MainThread]:   sslrootcert: None
+[0m15:08:53.337557 [info ] [MainThread]:   application_name: dbt
+[0m15:08:53.338559 [info ] [MainThread]:   retries: 1
+[0m15:08:53.339554 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m15:08:53.647763 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m15:08:53.694530 [debug] [MainThread]: Using postgres connection "debug"
+[0m15:08:53.694530 [debug] [MainThread]: On debug: select 1 as id
+[0m15:08:53.695619 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:08:55.163047 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  password authentication failed for user "postgres123"
+connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+[0m15:08:56.621120 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m15:08:56.622030 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m15:08:56.622030 [debug] [MainThread]: On debug: No close available on handle
+[0m15:08:56.623026 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m15:08:56.625031 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m15:08:56.625539 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbt_project.yml> not found
+
+[0m15:08:56.625539 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  password authentication failed for user "postgres123"
+  connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: server closed the connection unexpectedly
+  	This probably means the server terminated abnormally
+  	before or while processing the request.
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m15:08:56.627631 [debug] [MainThread]: Command `dbt debug` failed at 15:08:56.627631 after 3.70 seconds
+[0m15:08:56.627631 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m15:08:56.628547 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BEB0E59CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BEB4BD0440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BEB4234DA0>]}
+[0m15:08:56.628547 [debug] [MainThread]: Flushing usage events
+[0m15:08:57.637145 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:09:48.211916 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001998F296FF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001998F1E3800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001998F1E2360>]}
+
+
+============================== 15:09:48.214922 | 0c0aacb8-12c9-4d25-98d3-f3d71180fdee ==============================
+[0m15:09:48.214922 [info ] [MainThread]: Running with dbt=1.9.1
+[0m15:09:48.217266 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m15:09:48.231176 [info ] [MainThread]: dbt version: 1.9.1
+[0m15:09:48.233190 [info ] [MainThread]: python version: 3.12.8
+[0m15:09:48.233190 [info ] [MainThread]: python path: C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\.venv\Scripts\python.exe
+[0m15:09:48.234668 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m15:09:48.299135 [info ] [MainThread]: Using profiles dir at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt
+[0m15:09:48.300136 [info ] [MainThread]: Using profiles.yml file at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\profiles.yml
+[0m15:09:48.301134 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbt_project.yml
+[0m15:09:48.302176 [info ] [MainThread]: adapter type: postgres
+[0m15:09:48.303184 [info ] [MainThread]: adapter version: 1.9.0
+[0m15:09:48.304186 [info ] [MainThread]: Configuration:
+[0m15:09:48.304746 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:09:48.305757 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m15:09:48.305757 [info ] [MainThread]: Required dependencies:
+[0m15:09:48.306801 [debug] [MainThread]: Executing "git --help"
+[0m15:09:48.329157 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:09:48.329157 [debug] [MainThread]: STDERR: "b''"
+[0m15:09:48.329157 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:09:48.330696 [info ] [MainThread]: Connection:
+[0m15:09:48.330696 [info ] [MainThread]:   host: dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com
+[0m15:09:48.331708 [info ] [MainThread]:   port: 5432
+[0m15:09:48.332703 [info ] [MainThread]:   user: postgres123
+[0m15:09:48.333704 [info ] [MainThread]:   database: dbdatawarehouse
+[0m15:09:48.333704 [info ] [MainThread]:   schema: public
+[0m15:09:48.334705 [info ] [MainThread]:   connect_timeout: 10
+[0m15:09:48.335705 [info ] [MainThread]:   role: None
+[0m15:09:48.335705 [info ] [MainThread]:   search_path: None
+[0m15:09:48.336701 [info ] [MainThread]:   keepalives_idle: 0
+[0m15:09:48.337702 [info ] [MainThread]:   sslmode: None
+[0m15:09:48.337702 [info ] [MainThread]:   sslcert: None
+[0m15:09:48.338701 [info ] [MainThread]:   sslkey: None
+[0m15:09:48.338701 [info ] [MainThread]:   sslrootcert: None
+[0m15:09:48.338701 [info ] [MainThread]:   application_name: dbt
+[0m15:09:48.339702 [info ] [MainThread]:   retries: 1
+[0m15:09:48.339702 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m15:09:48.497700 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m15:09:48.539699 [debug] [MainThread]: Using postgres connection "debug"
+[0m15:09:48.540707 [debug] [MainThread]: On debug: select 1 as id
+[0m15:09:48.540707 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:09:50.230558 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  password authentication failed for user "postgres123"
+connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+[0m15:09:51.918086 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m15:09:51.919110 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m15:09:51.921104 [debug] [MainThread]: On debug: No close available on handle
+[0m15:09:51.921104 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m15:09:51.923174 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m15:09:51.925107 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbt_project.yml> not found
+
+[0m15:09:51.927147 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  password authentication failed for user "postgres123"
+  connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: server closed the connection unexpectedly
+  	This probably means the server terminated abnormally
+  	before or while processing the request.
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m15:09:51.930598 [debug] [MainThread]: Command `dbt debug` failed at 15:09:51.929600 after 3.88 seconds
+[0m15:09:51.931598 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m15:09:51.931598 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000199927BA8A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019992C92E40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019992BDE480>]}
+[0m15:09:51.932595 [debug] [MainThread]: Flushing usage events
+[0m15:09:52.754052 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:13:18.791438 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202AF850F80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202AFC91430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202AC271FD0>]}
+
+
+============================== 15:13:18.795485 | f65c5c5c-442c-4550-88cf-4f275f67726f ==============================
+[0m15:13:18.795485 [info ] [MainThread]: Running with dbt=1.9.1
+[0m15:13:18.796534 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:13:18.810446 [info ] [MainThread]: dbt version: 1.9.1
+[0m15:13:18.811447 [info ] [MainThread]: python version: 3.12.8
+[0m15:13:18.811447 [info ] [MainThread]: python path: C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\.venv\Scripts\python.exe
+[0m15:13:18.812540 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m15:13:18.879971 [info ] [MainThread]: Using profiles dir at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt
+[0m15:13:18.880951 [info ] [MainThread]: Using profiles.yml file at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\profiles.yml
+[0m15:13:18.881871 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbt_project.yml
+[0m15:13:18.882872 [info ] [MainThread]: adapter type: postgres
+[0m15:13:18.884871 [info ] [MainThread]: adapter version: 1.9.0
+[0m15:13:18.980100 [info ] [MainThread]: Configuration:
+[0m15:13:18.981068 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:13:18.982060 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m15:13:18.982977 [info ] [MainThread]: Required dependencies:
+[0m15:13:18.983977 [debug] [MainThread]: Executing "git --help"
+[0m15:13:19.005155 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:13:19.005155 [debug] [MainThread]: STDERR: "b''"
+[0m15:13:19.005155 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:13:19.006170 [info ] [MainThread]: Connection:
+[0m15:13:19.007168 [info ] [MainThread]:   host: dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com
+[0m15:13:19.008169 [info ] [MainThread]:   port: 5432
+[0m15:13:19.008564 [info ] [MainThread]:   user: postgres123
+[0m15:13:19.009574 [info ] [MainThread]:   database: dbdatawarehouse
+[0m15:13:19.009574 [info ] [MainThread]:   schema: public
+[0m15:13:19.010570 [info ] [MainThread]:   connect_timeout: 10
+[0m15:13:19.010570 [info ] [MainThread]:   role: None
+[0m15:13:19.011569 [info ] [MainThread]:   search_path: None
+[0m15:13:19.011569 [info ] [MainThread]:   keepalives_idle: 0
+[0m15:13:19.012570 [info ] [MainThread]:   sslmode: None
+[0m15:13:19.012570 [info ] [MainThread]:   sslcert: None
+[0m15:13:19.013536 [info ] [MainThread]:   sslkey: None
+[0m15:13:19.013536 [info ] [MainThread]:   sslrootcert: None
+[0m15:13:19.014573 [info ] [MainThread]:   application_name: dbt
+[0m15:13:19.015548 [info ] [MainThread]:   retries: 1
+[0m15:13:19.015548 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m15:13:19.173544 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m15:13:19.219552 [debug] [MainThread]: Using postgres connection "debug"
+[0m15:13:19.220545 [debug] [MainThread]: On debug: select 1 as id
+[0m15:13:19.220545 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:13:21.329964 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  password authentication failed for user "postgres123"
+connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+[0m15:13:22.765562 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m15:13:22.766562 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m15:13:22.766562 [debug] [MainThread]: On debug: No close available on handle
+[0m15:13:22.767562 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m15:13:22.768560 [info ] [MainThread]: [31m1 check failed:[0m
+[0m15:13:22.769559 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  password authentication failed for user "postgres123"
+  connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: server closed the connection unexpectedly
+  	This probably means the server terminated abnormally
+  	before or while processing the request.
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m15:13:22.770561 [debug] [MainThread]: Command `dbt debug` failed at 15:13:22.770561 after 4.27 seconds
+[0m15:13:22.770561 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m15:13:22.771560 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202B107D3A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202AF929070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202AFF6CCE0>]}
+[0m15:13:22.771560 [debug] [MainThread]: Flushing usage events
+[0m15:13:24.139779 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:16:24.574231 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002ACB3F0AA50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002ACB3F0AEA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002ACB3F0A1E0>]}
+
+
+============================== 15:16:24.578250 | 4d2e255c-2c6f-4eb1-a0ca-8f87f27c4775 ==============================
+[0m15:16:24.578250 [info ] [MainThread]: Running with dbt=1.9.1
+[0m15:16:24.579255 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:16:24.590321 [info ] [MainThread]: dbt version: 1.9.1
+[0m15:16:24.591237 [info ] [MainThread]: python version: 3.12.8
+[0m15:16:24.591237 [info ] [MainThread]: python path: C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\.venv\Scripts\python.exe
+[0m15:16:24.592240 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m15:16:24.656240 [info ] [MainThread]: Using profiles dir at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt
+[0m15:16:24.657053 [info ] [MainThread]: Using profiles.yml file at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\profiles.yml
+[0m15:16:24.658061 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbt_project.yml
+[0m15:16:24.659106 [info ] [MainThread]: adapter type: postgres
+[0m15:16:24.659633 [info ] [MainThread]: adapter version: 1.9.0
+[0m15:16:24.749221 [info ] [MainThread]: Configuration:
+[0m15:16:24.750142 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:16:24.750802 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m15:16:24.751509 [info ] [MainThread]: Required dependencies:
+[0m15:16:24.751509 [debug] [MainThread]: Executing "git --help"
+[0m15:16:24.822239 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:16:24.823241 [debug] [MainThread]: STDERR: "b''"
+[0m15:16:24.823241 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:16:24.824243 [info ] [MainThread]: Connection:
+[0m15:16:24.825242 [info ] [MainThread]:   host: dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com
+[0m15:16:24.826302 [info ] [MainThread]:   port: 5432
+[0m15:16:24.827239 [info ] [MainThread]:   user: postgres123
+[0m15:16:24.828243 [info ] [MainThread]:   database: dbdatawarehouse
+[0m15:16:24.829239 [info ] [MainThread]:   schema: public
+[0m15:16:24.830237 [info ] [MainThread]:   connect_timeout: 10
+[0m15:16:24.831237 [info ] [MainThread]:   role: None
+[0m15:16:24.832238 [info ] [MainThread]:   search_path: None
+[0m15:16:24.832238 [info ] [MainThread]:   keepalives_idle: 0
+[0m15:16:24.833240 [info ] [MainThread]:   sslmode: None
+[0m15:16:24.834239 [info ] [MainThread]:   sslcert: None
+[0m15:16:24.835239 [info ] [MainThread]:   sslkey: None
+[0m15:16:24.836238 [info ] [MainThread]:   sslrootcert: None
+[0m15:16:24.836238 [info ] [MainThread]:   application_name: dbt
+[0m15:16:24.837665 [info ] [MainThread]:   retries: 1
+[0m15:16:24.838674 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m15:16:24.991616 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m15:16:25.043528 [debug] [MainThread]: Using postgres connection "debug"
+[0m15:16:25.043528 [debug] [MainThread]: On debug: select 1 as id
+[0m15:16:25.044528 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:16:26.519473 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  password authentication failed for user "postgres123"
+connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+[0m15:16:27.989120 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m15:16:27.991143 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m15:16:27.992142 [debug] [MainThread]: On debug: No close available on handle
+[0m15:16:27.993142 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m15:16:27.994143 [info ] [MainThread]: [31m1 check failed:[0m
+[0m15:16:27.996203 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  password authentication failed for user "postgres123"
+  connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: server closed the connection unexpectedly
+  	This probably means the server terminated abnormally
+  	before or while processing the request.
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m15:16:27.998147 [debug] [MainThread]: Command `dbt debug` failed at 15:16:27.998147 after 3.70 seconds
+[0m15:16:27.999147 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m15:16:28.000141 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002ACB0DFB8F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002ACB3A8F5F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002ACB3A8E3C0>]}
+[0m15:16:28.000141 [debug] [MainThread]: Flushing usage events
+[0m15:16:29.120235 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:17:48.406948 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001981163E4B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001981138D820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001980FBB3C20>]}
+
+
+============================== 15:17:48.410043 | b6732b2a-2d7e-4846-aa43-6cf40a6d98cd ==============================
+[0m15:17:48.410043 [info ] [MainThread]: Running with dbt=1.9.1
+[0m15:17:48.410995 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug --config-dir', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:17:48.423030 [info ] [MainThread]: To view your profiles.yml file, run:
+
+start C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt
+[0m15:17:48.423952 [debug] [MainThread]: Command `dbt debug` succeeded at 15:17:48.423952 after 0.22 seconds
+[0m15:17:48.424944 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019811843770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000198112BC0B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001980FC3CE00>]}
+[0m15:17:48.424944 [debug] [MainThread]: Flushing usage events
+[0m15:17:49.769712 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:19:23.242369 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB721A2870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB721C1FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB721C3470>]}
+
+
+============================== 15:19:23.246385 | 4a4d7076-2d21-4d09-9abc-4f3b19a815f5 ==============================
+[0m15:19:23.246385 [info ] [MainThread]: Running with dbt=1.9.1
+[0m15:19:23.247372 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m15:19:23.258386 [info ] [MainThread]: dbt version: 1.9.1
+[0m15:19:23.259369 [info ] [MainThread]: python version: 3.12.8
+[0m15:19:23.259369 [info ] [MainThread]: python path: C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\.venv\Scripts\python.exe
+[0m15:19:23.260212 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m15:19:23.322256 [info ] [MainThread]: Using profiles dir at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt
+[0m15:19:23.324218 [info ] [MainThread]: Using profiles.yml file at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\profiles.yml
+[0m15:19:23.325218 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbt_project.yml
+[0m15:19:23.325711 [info ] [MainThread]: adapter type: postgres
+[0m15:19:23.326546 [info ] [MainThread]: adapter version: 1.9.0
+[0m15:19:23.425772 [info ] [MainThread]: Configuration:
+[0m15:19:23.426971 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:19:23.427835 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m15:19:23.428842 [info ] [MainThread]: Required dependencies:
+[0m15:19:23.428842 [debug] [MainThread]: Executing "git --help"
+[0m15:19:23.451518 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:19:23.451518 [debug] [MainThread]: STDERR: "b''"
+[0m15:19:23.452528 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:19:23.453516 [info ] [MainThread]: Connection:
+[0m15:19:23.453516 [info ] [MainThread]:   host: dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com
+[0m15:19:23.454570 [info ] [MainThread]:   port: 5432
+[0m15:19:23.455586 [info ] [MainThread]:   user: postgres123
+[0m15:19:23.455586 [info ] [MainThread]:   database: dbdatawarehouse
+[0m15:19:23.456593 [info ] [MainThread]:   schema: public
+[0m15:19:23.457593 [info ] [MainThread]:   connect_timeout: 10
+[0m15:19:23.457593 [info ] [MainThread]:   role: None
+[0m15:19:23.458591 [info ] [MainThread]:   search_path: None
+[0m15:19:23.458591 [info ] [MainThread]:   keepalives_idle: 0
+[0m15:19:23.459591 [info ] [MainThread]:   sslmode: None
+[0m15:19:23.459591 [info ] [MainThread]:   sslcert: None
+[0m15:19:23.460409 [info ] [MainThread]:   sslkey: None
+[0m15:19:23.460409 [info ] [MainThread]:   sslrootcert: None
+[0m15:19:23.460409 [info ] [MainThread]:   application_name: dbt
+[0m15:19:23.461417 [info ] [MainThread]:   retries: 1
+[0m15:19:23.461417 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m15:19:23.634538 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m15:19:23.681426 [debug] [MainThread]: Using postgres connection "debug"
+[0m15:19:23.682482 [debug] [MainThread]: On debug: select 1 as id
+[0m15:19:23.682482 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:19:25.357062 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  password authentication failed for user "postgres123"
+connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+[0m15:19:26.822915 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m15:19:26.824938 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m15:19:26.825938 [debug] [MainThread]: On debug: No close available on handle
+[0m15:19:26.825938 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m15:19:26.828013 [info ] [MainThread]: [31m1 check failed:[0m
+[0m15:19:26.829938 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  password authentication failed for user "postgres123"
+  connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: server closed the connection unexpectedly
+  	This probably means the server terminated abnormally
+  	before or while processing the request.
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m15:19:26.832940 [debug] [MainThread]: Command `dbt debug` failed at 15:19:26.832940 after 3.85 seconds
+[0m15:19:26.833938 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m15:19:26.834939 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB75983170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB75F3FF50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB75F6F3E0>]}
+[0m15:19:26.835930 [debug] [MainThread]: Flushing usage events
+[0m15:19:27.598025 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:21:14.934933 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1BD68A1B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1BD9333B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1C22DE9F0>]}
+
+
+============================== 15:21:14.939007 | 8e6565a4-73b5-456c-8e04-f9a036841842 ==============================
+[0m15:21:14.939007 [info ] [MainThread]: Running with dbt=1.9.1
+[0m15:21:14.939937 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\logs', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m15:21:14.950941 [info ] [MainThread]: dbt version: 1.9.1
+[0m15:21:14.951927 [info ] [MainThread]: python version: 3.12.8
+[0m15:21:14.952987 [info ] [MainThread]: python path: C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\.venv\Scripts\python.exe
+[0m15:21:14.953928 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m15:21:15.011387 [info ] [MainThread]: Using profiles dir at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt
+[0m15:21:15.012445 [info ] [MainThread]: Using profiles.yml file at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\profiles.yml
+[0m15:21:15.013258 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbt_project.yml
+[0m15:21:15.014310 [info ] [MainThread]: adapter type: postgres
+[0m15:21:15.015274 [info ] [MainThread]: adapter version: 1.9.0
+[0m15:21:15.104269 [info ] [MainThread]: Configuration:
+[0m15:21:15.105274 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:21:15.106196 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m15:21:15.107192 [info ] [MainThread]: Required dependencies:
+[0m15:21:15.108190 [debug] [MainThread]: Executing "git --help"
+[0m15:21:15.129076 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:21:15.129076 [debug] [MainThread]: STDERR: "b''"
+[0m15:21:15.129076 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:21:15.130649 [info ] [MainThread]: Connection:
+[0m15:21:15.131268 [info ] [MainThread]:   host: dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com
+[0m15:21:15.132319 [info ] [MainThread]:   port: 5432
+[0m15:21:15.132319 [info ] [MainThread]:   user: postgres123
+[0m15:21:15.133273 [info ] [MainThread]:   database: dbdatawarehouse
+[0m15:21:15.134273 [info ] [MainThread]:   schema: public
+[0m15:21:15.134273 [info ] [MainThread]:   connect_timeout: 10
+[0m15:21:15.134273 [info ] [MainThread]:   role: None
+[0m15:21:15.134273 [info ] [MainThread]:   search_path: None
+[0m15:21:15.134273 [info ] [MainThread]:   keepalives_idle: 0
+[0m15:21:15.134273 [info ] [MainThread]:   sslmode: None
+[0m15:21:15.134273 [info ] [MainThread]:   sslcert: None
+[0m15:21:15.134273 [info ] [MainThread]:   sslkey: None
+[0m15:21:15.134273 [info ] [MainThread]:   sslrootcert: None
+[0m15:21:15.134273 [info ] [MainThread]:   application_name: dbt
+[0m15:21:15.134273 [info ] [MainThread]:   retries: 1
+[0m15:21:15.134273 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m15:21:15.291057 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m15:21:15.338479 [debug] [MainThread]: Using postgres connection "debug"
+[0m15:21:15.338479 [debug] [MainThread]: On debug: select 1 as id
+[0m15:21:15.338479 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:21:16.866963 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  password authentication failed for user "postgres123"
+connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+[0m15:21:18.285413 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m15:21:18.287433 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m15:21:18.287433 [debug] [MainThread]: On debug: No close available on handle
+[0m15:21:18.288433 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m15:21:18.290433 [info ] [MainThread]: [31m1 check failed:[0m
+[0m15:21:18.291478 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  password authentication failed for user "postgres123"
+  connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: server closed the connection unexpectedly
+  	This probably means the server terminated abnormally
+  	before or while processing the request.
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m15:21:18.292486 [debug] [MainThread]: Command `dbt debug` failed at 15:21:18.292486 after 3.63 seconds
+[0m15:21:18.292486 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m15:21:18.293574 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1C263F770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1C0A8B7D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1BD752330>]}
+[0m15:21:18.295578 [debug] [MainThread]: Flushing usage events
+[0m15:21:19.211731 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:27:06.016892 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025E7D01D010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025E7F68B770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025E7F08CF50>]}
+
+
+============================== 15:27:06.035987 | f7e0d1fa-6981-4940-be08-75444a3f2c07 ==============================
+[0m15:27:06.035987 [info ] [MainThread]: Running with dbt=1.9.1
+[0m15:27:06.036978 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:27:06.250425 [info ] [MainThread]: dbt version: 1.9.1
+[0m15:27:06.251411 [info ] [MainThread]: python version: 3.12.8
+[0m15:27:06.252423 [info ] [MainThread]: python path: C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\.venv\Scripts\python.exe
+[0m15:27:06.253415 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m15:27:06.637021 [info ] [MainThread]: Using profiles dir at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt
+[0m15:27:06.638020 [info ] [MainThread]: Using profiles.yml file at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\profiles.yml
+[0m15:27:06.639021 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbt_project.yml
+[0m15:27:06.650413 [info ] [MainThread]: adapter type: postgres
+[0m15:27:06.651412 [info ] [MainThread]: adapter version: 1.9.0
+[0m15:27:06.791910 [info ] [MainThread]: Configuration:
+[0m15:27:06.792814 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:27:06.792814 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m15:27:06.793812 [info ] [MainThread]: Required dependencies:
+[0m15:27:06.794865 [debug] [MainThread]: Executing "git --help"
+[0m15:27:06.819736 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:27:06.820743 [debug] [MainThread]: STDERR: "b''"
+[0m15:27:06.820743 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:27:06.821721 [info ] [MainThread]: Connection:
+[0m15:27:06.822717 [info ] [MainThread]:   host: dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com
+[0m15:27:06.823805 [info ] [MainThread]:   port: 5432
+[0m15:27:06.824720 [info ] [MainThread]:   user: postgres123
+[0m15:27:06.825819 [info ] [MainThread]:   database: dbdatawarehouse
+[0m15:27:06.826820 [info ] [MainThread]:   schema: public
+[0m15:27:06.827720 [info ] [MainThread]:   connect_timeout: 10
+[0m15:27:06.827720 [info ] [MainThread]:   role: None
+[0m15:27:06.828723 [info ] [MainThread]:   search_path: None
+[0m15:27:06.829721 [info ] [MainThread]:   keepalives_idle: 0
+[0m15:27:06.830719 [info ] [MainThread]:   sslmode: None
+[0m15:27:06.831718 [info ] [MainThread]:   sslcert: None
+[0m15:27:06.831718 [info ] [MainThread]:   sslkey: None
+[0m15:27:06.834492 [info ] [MainThread]:   sslrootcert: None
+[0m15:27:06.835542 [info ] [MainThread]:   application_name: dbt
+[0m15:27:06.836552 [info ] [MainThread]:   retries: 1
+[0m15:27:06.837502 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m15:27:07.262801 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m15:27:10.169210 [debug] [MainThread]: Using postgres connection "debug"
+[0m15:27:10.170216 [debug] [MainThread]: On debug: select 1 as id
+[0m15:27:10.171215 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:27:11.845979 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  password authentication failed for user "postgres123"
+connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+[0m15:27:13.474928 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m15:27:13.474928 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m15:27:13.475928 [debug] [MainThread]: On debug: No close available on handle
+[0m15:27:13.475928 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m15:27:13.476926 [info ] [MainThread]: [31m1 check failed:[0m
+[0m15:27:13.477927 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  password authentication failed for user "postgres123"
+  connection to server at "dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: server closed the connection unexpectedly
+  	This probably means the server terminated abnormally
+  	before or while processing the request.
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m15:27:13.479928 [debug] [MainThread]: Command `dbt debug` failed at 15:27:13.479928 after 7.73 seconds
+[0m15:27:13.480936 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m15:27:13.481928 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025E7FAFBC20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025E7FD6F140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025E7F811430>]}
+[0m15:27:13.481928 [debug] [MainThread]: Flushing usage events
+[0m15:27:14.366678 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:28:25.442027 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000136084140B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013608415D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013608416840>]}
+
+
+============================== 15:28:25.446111 | e48053d7-2f4e-41bc-b51d-5c2c4a23f138 ==============================
+[0m15:28:25.446111 [info ] [MainThread]: Running with dbt=1.9.1
+[0m15:28:25.447099 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m15:28:25.459081 [info ] [MainThread]: dbt version: 1.9.1
+[0m15:28:25.459878 [info ] [MainThread]: python version: 3.12.8
+[0m15:28:25.460884 [info ] [MainThread]: python path: C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\.venv\Scripts\python.exe
+[0m15:28:25.461884 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m15:28:25.528950 [info ] [MainThread]: Using profiles dir at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt
+[0m15:28:25.530400 [info ] [MainThread]: Using profiles.yml file at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\profiles.yml
+[0m15:28:25.531429 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbt_project.yml
+[0m15:28:25.532116 [info ] [MainThread]: adapter type: postgres
+[0m15:28:25.533125 [info ] [MainThread]: adapter version: 1.9.0
+[0m15:28:25.618121 [info ] [MainThread]: Configuration:
+[0m15:28:25.618121 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:28:25.619124 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m15:28:25.620123 [info ] [MainThread]: Required dependencies:
+[0m15:28:25.621094 [debug] [MainThread]: Executing "git --help"
+[0m15:28:25.644098 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:28:25.644098 [debug] [MainThread]: STDERR: "b''"
+[0m15:28:25.644098 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:28:25.645219 [info ] [MainThread]: Connection:
+[0m15:28:25.645219 [info ] [MainThread]:   host: dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com
+[0m15:28:25.646227 [info ] [MainThread]:   port: 5432
+[0m15:28:25.647079 [info ] [MainThread]:   user: postgres123
+[0m15:28:25.647749 [info ] [MainThread]:   database: dbdatawarehouse
+[0m15:28:25.647749 [info ] [MainThread]:   schema: public
+[0m15:28:25.648755 [info ] [MainThread]:   connect_timeout: 10
+[0m15:28:25.648755 [info ] [MainThread]:   role: None
+[0m15:28:25.649756 [info ] [MainThread]:   search_path: None
+[0m15:28:25.649756 [info ] [MainThread]:   keepalives_idle: 0
+[0m15:28:25.650755 [info ] [MainThread]:   sslmode: None
+[0m15:28:25.650755 [info ] [MainThread]:   sslcert: None
+[0m15:28:25.651756 [info ] [MainThread]:   sslkey: None
+[0m15:28:25.652758 [info ] [MainThread]:   sslrootcert: None
+[0m15:28:25.653770 [info ] [MainThread]:   application_name: dbt
+[0m15:28:25.654754 [info ] [MainThread]:   retries: 1
+[0m15:28:25.654754 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m15:28:25.809762 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m15:28:25.851836 [debug] [MainThread]: Using postgres connection "debug"
+[0m15:28:25.851836 [debug] [MainThread]: On debug: select 1 as id
+[0m15:28:25.851836 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:28:27.405313 [debug] [MainThread]: SQL status: SELECT 1 in 1.553 seconds
+[0m15:28:27.406345 [debug] [MainThread]: On debug: Close
+[0m15:28:27.407368 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m15:28:27.409253 [info ] [MainThread]: [32mAll checks passed![0m
+[0m15:28:27.410256 [debug] [MainThread]: Command `dbt debug` succeeded at 15:28:27.410256 after 2.14 seconds
+[0m15:28:27.411280 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m15:28:27.411280 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001360823F530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000136082DCB60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013608415D90>]}
+[0m15:28:27.411280 [debug] [MainThread]: Flushing usage events
+[0m15:28:28.155042 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:30:10.432293 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002892524AAB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028925C9F140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028925B11400>]}
+
+
+============================== 15:30:10.436374 | e21d521b-2743-4b00-91a7-192ce47576fe ==============================
+[0m15:30:10.436374 [info ] [MainThread]: Running with dbt=1.9.1
+[0m15:30:10.437290 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m15:30:10.449283 [info ] [MainThread]: dbt version: 1.9.1
+[0m15:30:10.449831 [info ] [MainThread]: python version: 3.12.8
+[0m15:30:10.450367 [info ] [MainThread]: python path: C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\.venv\Scripts\python.exe
+[0m15:30:10.451373 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m15:30:10.467200 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_NAME_PROD'
+[0m15:30:10.468955 [debug] [MainThread]: Command `dbt debug` failed at 15:30:10.468955 after 0.21 seconds
+[0m15:30:10.468955 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028925BB1070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028925B92FF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028925EDBDA0>]}
+[0m15:30:10.468955 [debug] [MainThread]: Flushing usage events
+[0m15:30:11.250389 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:36:19.993013 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8C2F17BC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8C289FB30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8C289DBE0>]}
+
+
+============================== 15:36:20.004034 | 490994db-c2bc-4720-81a9-a04ee2c28ed7 ==============================
+[0m15:36:20.004034 [info ] [MainThread]: Running with dbt=1.9.1
+[0m15:36:20.005647 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m15:36:20.192051 [info ] [MainThread]: dbt version: 1.9.1
+[0m15:36:20.193021 [info ] [MainThread]: python version: 3.12.8
+[0m15:36:20.194032 [info ] [MainThread]: python path: C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\.venv\Scripts\python.exe
+[0m15:36:20.194962 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m15:36:20.205668 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_NAME_PROD'
+[0m15:36:20.207719 [debug] [MainThread]: Command `dbt debug` failed at 15:36:20.207719 after 0.41 seconds
+[0m15:36:20.207719 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8C2F43860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8C2387890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8C279C0E0>]}
+[0m15:36:20.208768 [debug] [MainThread]: Flushing usage events
+[0m15:36:20.981508 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:36:38.094682 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001969F602F00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001969F6DC200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001969FA50EF0>]}
+
+
+============================== 15:36:38.098772 | db3fe790-5d5c-4efe-bd8b-50df220b79ab ==============================
+[0m15:36:38.098772 [info ] [MainThread]: Running with dbt=1.9.1
+[0m15:36:38.099691 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\logs', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m15:36:38.111971 [info ] [MainThread]: dbt version: 1.9.1
+[0m15:36:38.112924 [info ] [MainThread]: python version: 3.12.8
+[0m15:36:38.113985 [info ] [MainThread]: python path: C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\.venv\Scripts\python.exe
+[0m15:36:38.114993 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m15:36:38.557138 [info ] [MainThread]: Using profiles dir at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt
+[0m15:36:38.557138 [info ] [MainThread]: Using profiles.yml file at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\profiles.yml
+[0m15:36:38.558139 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbt_project.yml
+[0m15:36:38.569096 [info ] [MainThread]: adapter type: postgres
+[0m15:36:38.570089 [info ] [MainThread]: adapter version: 1.9.0
+[0m15:36:38.659896 [info ] [MainThread]: Configuration:
+[0m15:36:38.660816 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:36:38.660816 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m15:36:38.661881 [info ] [MainThread]: Required dependencies:
+[0m15:36:38.662860 [debug] [MainThread]: Executing "git --help"
+[0m15:36:38.686029 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:36:38.686029 [debug] [MainThread]: STDERR: "b''"
+[0m15:36:38.686029 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:36:38.687591 [info ] [MainThread]: Connection:
+[0m15:36:38.687591 [info ] [MainThread]:   host: dpg-ctq0v9qj1k6c739o63f0-a.oregon-postgres.render.com
+[0m15:36:38.688658 [info ] [MainThread]:   port: 5432
+[0m15:36:38.689657 [info ] [MainThread]:   user: postgres123
+[0m15:36:38.689657 [info ] [MainThread]:   database: dbdatawarehouse
+[0m15:36:38.690599 [info ] [MainThread]:   schema: public
+[0m15:36:38.691598 [info ] [MainThread]:   connect_timeout: 10
+[0m15:36:38.691598 [info ] [MainThread]:   role: None
+[0m15:36:38.692598 [info ] [MainThread]:   search_path: None
+[0m15:36:38.692598 [info ] [MainThread]:   keepalives_idle: 0
+[0m15:36:38.693597 [info ] [MainThread]:   sslmode: None
+[0m15:36:38.693597 [info ] [MainThread]:   sslcert: None
+[0m15:36:38.694599 [info ] [MainThread]:   sslkey: None
+[0m15:36:38.694599 [info ] [MainThread]:   sslrootcert: None
+[0m15:36:38.695597 [info ] [MainThread]:   application_name: dbt
+[0m15:36:38.695597 [info ] [MainThread]:   retries: 1
+[0m15:36:38.696597 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m15:36:39.003221 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m15:36:43.200336 [debug] [MainThread]: Using postgres connection "debug"
+[0m15:36:43.200336 [debug] [MainThread]: On debug: select 1 as id
+[0m15:36:43.201323 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:36:44.858878 [debug] [MainThread]: SQL status: SELECT 1 in 1.658 seconds
+[0m15:36:44.861776 [debug] [MainThread]: On debug: Close
+[0m15:36:44.862866 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m15:36:44.864772 [info ] [MainThread]: [32mAll checks passed![0m
+[0m15:36:44.866770 [debug] [MainThread]: Command `dbt debug` succeeded at 15:36:44.866770 after 6.95 seconds
+[0m15:36:44.867866 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m15:36:44.867866 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001969FE4B500>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001969FF3EBA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001969B828470>]}
+[0m15:36:44.868859 [debug] [MainThread]: Flushing usage events
+[0m15:36:45.745340 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:16:24.633964 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016408C91CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001640C7111F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016408D31B20>]}
+
+
+============================== 16:16:24.638061 | c67d5b7d-52a5-437d-b474-611cf09b7d80 ==============================
+[0m16:16:24.638061 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:16:24.639906 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt run', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:16:24.824173 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c67d5b7d-52a5-437d-b474-611cf09b7d80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001640AF3CD10>]}
+[0m16:16:24.878461 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c67d5b7d-52a5-437d-b474-611cf09b7d80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001640C555550>]}
+[0m16:16:24.879405 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m16:16:25.100088 [debug] [MainThread]: checksum: 5e8d1596cf4eae33c11286bbb248a722d21b9f00d8a7ced8137c642517055418, vars: {}, profile: , target: , version: 1.9.1
+[0m16:16:25.101009 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m16:16:25.102017 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'c67d5b7d-52a5-437d-b474-611cf09b7d80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001640C394320>]}
+[0m16:16:26.999516 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models
+[0m16:16:27.005228 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c67d5b7d-52a5-437d-b474-611cf09b7d80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001640CECADE0>]}
+[0m16:16:27.043957 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:16:27.062874 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:16:27.118021 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c67d5b7d-52a5-437d-b474-611cf09b7d80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001640CDE6690>]}
+[0m16:16:27.119021 [info ] [MainThread]: Found 431 macros
+[0m16:16:27.119021 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c67d5b7d-52a5-437d-b474-611cf09b7d80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001640CEE7650>]}
+[0m16:16:27.121106 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:16:27.122020 [debug] [MainThread]: Command end result
+[0m16:16:27.138224 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:16:27.139308 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:16:27.142822 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\run_results.json
+[0m16:16:27.143830 [debug] [MainThread]: Command `dbt run` succeeded at 16:16:27.143830 after 2.80 seconds
+[0m16:16:27.143830 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001640C912540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001640C2011C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001640C6E6030>]}
+[0m16:16:27.144913 [debug] [MainThread]: Flushing usage events
+[0m16:16:28.077259 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:17:47.326902 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002725DC070E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002725FCD3C80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002725FCD1EB0>]}
+
+
+============================== 16:17:47.330917 | 3190f5be-e912-4237-927f-c06489948b43 ==============================
+[0m16:17:47.330917 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:17:47.331476 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:17:47.499323 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3190f5be-e912-4237-927f-c06489948b43', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000272613217F0>]}
+[0m16:17:47.554646 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '3190f5be-e912-4237-927f-c06489948b43', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000272616DB5F0>]}
+[0m16:17:47.555646 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m16:17:47.723019 [debug] [MainThread]: checksum: 5e8d1596cf4eae33c11286bbb248a722d21b9f00d8a7ced8137c642517055418, vars: {}, profile: , target: , version: 1.9.1
+[0m16:17:47.799335 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:17:47.800330 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:17:47.801251 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models
+[0m16:17:47.806791 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '3190f5be-e912-4237-927f-c06489948b43', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027261A44DD0>]}
+[0m16:17:47.843456 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:17:47.847465 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:17:47.865870 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3190f5be-e912-4237-927f-c06489948b43', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027261D4A0C0>]}
+[0m16:17:47.866791 [info ] [MainThread]: Found 431 macros
+[0m16:17:47.868285 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3190f5be-e912-4237-927f-c06489948b43', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000272619605F0>]}
+[0m16:17:47.869294 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:17:47.872796 [debug] [MainThread]: Command end result
+[0m16:17:47.890413 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:17:47.891413 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:17:47.896009 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\run_results.json
+[0m16:17:47.896926 [debug] [MainThread]: Command `dbt run` succeeded at 16:17:47.896926 after 0.77 seconds
+[0m16:17:47.896926 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000272618F6ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000272617111C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027261711100>]}
+[0m16:17:47.896926 [debug] [MainThread]: Flushing usage events
+[0m16:17:48.803034 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:20:21.036046 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017739342720>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001773C7B0CB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001773C7B1310>]}
+
+
+============================== 16:20:21.040045 | d0b5bc82-413b-4aff-b3bf-b6468535b78e ==============================
+[0m16:20:21.040045 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:20:21.041017 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m16:20:21.209958 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd0b5bc82-413b-4aff-b3bf-b6468535b78e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001773E5B31D0>]}
+[0m16:20:21.263802 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd0b5bc82-413b-4aff-b3bf-b6468535b78e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001773C88CE90>]}
+[0m16:20:21.264800 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m16:20:21.432789 [debug] [MainThread]: checksum: 5e8d1596cf4eae33c11286bbb248a722d21b9f00d8a7ced8137c642517055418, vars: {}, profile: , target: , version: 1.9.1
+[0m16:20:21.468370 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m16:20:21.469704 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'd0b5bc82-413b-4aff-b3bf-b6468535b78e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001773E8B5910>]}
+[0m16:20:22.088489 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbdatawarehouse.bronze_layer
+[0m16:20:22.093491 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd0b5bc82-413b-4aff-b3bf-b6468535b78e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001773E666D80>]}
+[0m16:20:22.130012 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:20:22.133013 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:20:22.152373 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd0b5bc82-413b-4aff-b3bf-b6468535b78e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001773E8538F0>]}
+[0m16:20:22.152373 [info ] [MainThread]: Found 431 macros
+[0m16:20:22.153372 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd0b5bc82-413b-4aff-b3bf-b6468535b78e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001773E812DE0>]}
+[0m16:20:22.154877 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:20:22.155883 [debug] [MainThread]: Command end result
+[0m16:20:22.174209 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:20:22.175722 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:20:22.180726 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\run_results.json
+[0m16:20:22.181727 [debug] [MainThread]: Command `dbt run` succeeded at 16:20:22.181727 after 1.35 seconds
+[0m16:20:22.181727 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017739342720>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001773E5D6C00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001773E558500>]}
+[0m16:20:22.182729 [debug] [MainThread]: Flushing usage events
+[0m16:20:23.130667 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:23:28.990257 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E82C7FFB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E82B867E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E82B84680>]}
+
+
+============================== 16:23:28.993263 | bed54828-0792-42ae-9df5-5c36147d331b ==============================
+[0m16:23:28.993263 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:23:28.994264 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:23:29.156265 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'bed54828-0792-42ae-9df5-5c36147d331b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E7FF505C0>]}
+[0m16:23:29.208265 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'bed54828-0792-42ae-9df5-5c36147d331b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E824CEDE0>]}
+[0m16:23:29.209266 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m16:23:29.366395 [debug] [MainThread]: checksum: 5e8d1596cf4eae33c11286bbb248a722d21b9f00d8a7ced8137c642517055418, vars: {}, profile: , target: , version: 1.9.1
+[0m16:23:29.401310 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m16:23:29.402843 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'bed54828-0792-42ae-9df5-5c36147d331b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E82B861B0>]}
+[0m16:23:30.019197 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbdatawarehouse.bronze_layer
+[0m16:23:30.024468 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'bed54828-0792-42ae-9df5-5c36147d331b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E844388C0>]}
+[0m16:23:30.058890 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:23:30.061870 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:23:30.078804 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'bed54828-0792-42ae-9df5-5c36147d331b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E843FE840>]}
+[0m16:23:30.078804 [info ] [MainThread]: Found 431 macros
+[0m16:23:30.079904 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'bed54828-0792-42ae-9df5-5c36147d331b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E8426DF70>]}
+[0m16:23:30.080906 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:23:30.081894 [debug] [MainThread]: Command end result
+[0m16:23:30.098806 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:23:30.101845 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:23:30.105804 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\run_results.json
+[0m16:23:30.106901 [debug] [MainThread]: Command `dbt run` succeeded at 16:23:30.106901 after 1.40 seconds
+[0m16:23:30.107897 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E8452CF50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E84207B30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E843F3CE0>]}
+[0m16:23:30.107897 [debug] [MainThread]: Flushing usage events
+[0m16:23:31.665733 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:24:07.058322 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B444D7A720>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B448426180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B448911520>]}
+
+
+============================== 16:24:07.061862 | 86d76c6e-d3f3-4159-a6a5-3febbf43f6a8 ==============================
+[0m16:24:07.061862 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:24:07.063798 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m16:24:07.211054 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '86d76c6e-d3f3-4159-a6a5-3febbf43f6a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B44813CDA0>]}
+[0m16:24:07.257666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '86d76c6e-d3f3-4159-a6a5-3febbf43f6a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B44813E060>]}
+[0m16:24:07.258666 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m16:24:07.414543 [debug] [MainThread]: checksum: 5e8d1596cf4eae33c11286bbb248a722d21b9f00d8a7ced8137c642517055418, vars: {}, profile: , target: , version: 1.9.1
+[0m16:24:07.487264 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:24:07.487264 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:24:07.488265 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbdatawarehouse.bronze_layer
+[0m16:24:07.493261 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '86d76c6e-d3f3-4159-a6a5-3febbf43f6a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B448D3F260>]}
+[0m16:24:07.528350 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:24:07.531269 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:24:07.550704 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '86d76c6e-d3f3-4159-a6a5-3febbf43f6a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B44A145FA0>]}
+[0m16:24:07.551622 [info ] [MainThread]: Found 431 macros
+[0m16:24:07.552621 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '86d76c6e-d3f3-4159-a6a5-3febbf43f6a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B448C6D2E0>]}
+[0m16:24:07.553718 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:24:07.555620 [debug] [MainThread]: Command end result
+[0m16:24:07.572624 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:24:07.576621 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:24:07.579692 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\run_results.json
+[0m16:24:07.580713 [debug] [MainThread]: Command `dbt run` succeeded at 16:24:07.579692 after 0.69 seconds
+[0m16:24:07.580713 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B44878A720>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B444B194C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B446AF1730>]}
+[0m16:24:07.580713 [debug] [MainThread]: Flushing usage events
+[0m16:24:08.218678 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:26:27.012565 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E30E64B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E1FB5BE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E17B0170>]}
+
+
+============================== 16:26:27.014341 | 787feb6a-1243-4fcb-8169-a7598ad29c3d ==============================
+[0m16:26:27.014341 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:26:27.014341 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:26:27.180531 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '787feb6a-1243-4fcb-8169-a7598ad29c3d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E304DA00>]}
+[0m16:26:27.231287 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '787feb6a-1243-4fcb-8169-a7598ad29c3d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E1AB4FE0>]}
+[0m16:26:27.231287 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m16:26:27.397611 [debug] [MainThread]: checksum: 5e8d1596cf4eae33c11286bbb248a722d21b9f00d8a7ced8137c642517055418, vars: {}, profile: , target: , version: 1.9.1
+[0m16:26:27.431567 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m16:26:27.431567 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '787feb6a-1243-4fcb-8169-a7598ad29c3d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E37F5B20>]}
+[0m16:26:28.067840 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbdatawarehouse
+[0m16:26:28.074916 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '787feb6a-1243-4fcb-8169-a7598ad29c3d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E337DBB0>]}
+[0m16:26:28.107934 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:26:28.110925 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:26:28.129847 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '787feb6a-1243-4fcb-8169-a7598ad29c3d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E3748710>]}
+[0m16:26:28.129847 [info ] [MainThread]: Found 431 macros
+[0m16:26:28.130937 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '787feb6a-1243-4fcb-8169-a7598ad29c3d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E380E780>]}
+[0m16:26:28.132840 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:26:28.134856 [debug] [MainThread]: Command end result
+[0m16:26:28.151934 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:26:28.153843 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:26:28.157904 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\run_results.json
+[0m16:26:28.157904 [debug] [MainThread]: Command `dbt run` succeeded at 16:26:28.157904 after 1.44 seconds
+[0m16:26:28.158934 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E1D29070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E1EB8D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E1E50BF0>]}
+[0m16:26:28.158934 [debug] [MainThread]: Flushing usage events
+[0m16:26:29.574611 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:27:42.067643 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131535A94C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131536A8F20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013156C54FB0>]}
+
+
+============================== 16:27:42.067643 | dd8dba33-20b8-420f-b7fe-798787eeaf96 ==============================
+[0m16:27:42.067643 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:27:42.067643 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'fail_fast': 'False', 'debug': 'True', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run --debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:27:42.232230 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'dd8dba33-20b8-420f-b7fe-798787eeaf96', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131560D1910>]}
+[0m16:27:42.292520 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'dd8dba33-20b8-420f-b7fe-798787eeaf96', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013156A4F950>]}
+[0m16:27:42.294286 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m16:27:42.448948 [debug] [MainThread]: checksum: 5e8d1596cf4eae33c11286bbb248a722d21b9f00d8a7ced8137c642517055418, vars: {}, profile: , target: , version: 1.9.1
+[0m16:27:42.522157 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:27:42.523147 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:27:42.524063 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbdatawarehouse
+[0m16:27:42.530063 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'dd8dba33-20b8-420f-b7fe-798787eeaf96', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013158389520>]}
+[0m16:27:42.558232 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:27:42.572893 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:27:42.587038 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'dd8dba33-20b8-420f-b7fe-798787eeaf96', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013158686180>]}
+[0m16:27:42.587038 [info ] [MainThread]: Found 431 macros
+[0m16:27:42.594565 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'dd8dba33-20b8-420f-b7fe-798787eeaf96', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013158679AF0>]}
+[0m16:27:42.595574 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:27:42.598655 [debug] [MainThread]: Command end result
+[0m16:27:42.608725 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:27:42.618244 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:27:42.622717 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\run_results.json
+[0m16:27:42.622717 [debug] [MainThread]: Command `dbt run` succeeded at 16:27:42.622717 after 0.75 seconds
+[0m16:27:42.625094 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131565D1D60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131565D3E60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131565D2030>]}
+[0m16:27:42.626105 [debug] [MainThread]: Flushing usage events
+[0m16:27:43.431543 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:29:20.139033 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DDFCEEFFB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DDFFDB8D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DDFF32B650>]}
+
+
+============================== 16:29:20.142918 | 3295925f-8ed9-41c5-adb2-06e7def6d16c ==============================
+[0m16:29:20.142918 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:29:20.143917 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\logs', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt ls', 'send_anonymous_usage_stats': 'True'}
+[0m16:29:20.312849 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3295925f-8ed9-41c5-adb2-06e7def6d16c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DDFF73CB90>]}
+[0m16:29:20.371275 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '3295925f-8ed9-41c5-adb2-06e7def6d16c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE0126F0B0>]}
+[0m16:29:20.373363 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m16:29:20.540351 [debug] [MainThread]: checksum: 5e8d1596cf4eae33c11286bbb248a722d21b9f00d8a7ced8137c642517055418, vars: {}, profile: , target: , version: 1.9.1
+[0m16:29:20.571432 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m16:29:20.571432 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '3295925f-8ed9-41c5-adb2-06e7def6d16c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE016B62A0>]}
+[0m16:29:21.199938 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbdatawarehouse.bronze_layer
+[0m16:29:21.205025 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '3295925f-8ed9-41c5-adb2-06e7def6d16c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE015C1B20>]}
+[0m16:29:21.242930 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:29:21.245928 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:29:21.268931 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3295925f-8ed9-41c5-adb2-06e7def6d16c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE01651460>]}
+[0m16:29:21.268931 [info ] [MainThread]: Found 431 macros
+[0m16:29:21.269927 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3295925f-8ed9-41c5-adb2-06e7def6d16c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE015C3170>]}
+[0m16:29:21.270970 [warn ] [MainThread]: No nodes selected!
+[0m16:29:21.271942 [debug] [MainThread]: Command `dbt ls` succeeded at 16:29:21.271942 after 1.39 seconds
+[0m16:29:21.273015 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DDFCEEFFB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE01116600>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DDFFE12570>]}
+[0m16:29:21.273015 [debug] [MainThread]: Flushing usage events
+[0m16:29:22.053015 [debug] [MainThread]: An error was encountered while trying to flush usage events

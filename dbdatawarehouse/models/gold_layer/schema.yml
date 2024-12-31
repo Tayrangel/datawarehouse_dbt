@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: fct_commodities
+    description: 'Fact table with commodity data integrated with movements'
+    columns:
+      - name: extract_dt
+        description: 'Extract date'
+        tests:
+          - unique
+          - not_null
+      - name: close_vl
+        description: 'Closing price of the commodity'
+      - name: Symbol
+        description: 'Symbol of the commodity'
+      - name: action
+        description: 'Action taken on the commodity (buy/sell)'
+      - name: quantity
+        description: 'Quantity of the commodity'
+      - name: total_vl
+        description: 'Total value of the commodity'
+      - name: profit
+        description: 'Profit value of the commodity'
