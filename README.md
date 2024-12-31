@@ -7,3 +7,6 @@ pip install -r requirements.txt
 Redis
 bank_name: dbdatawarehouse
 user: postgres123
+
+DBT
+pip install dbt-postgres

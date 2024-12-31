@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: stg_commodities
+    description: 'Commodity transfer table with purchase and sale'
+    columns:
+      - name: extract_dt
+        description: 'Extract date'
+        tests:
+          - unique
+          - not_null
+      - name: close_vl
+        description: 'Closing price of the commodity'
+      - name: Symbol
+        description: 'Symbol of the commodity'
+            
+  - name: stg_transfer_commodities
+    description: 'Transfer table for commodities'
+    columns:
+      - name: extract_dt
+        description: 'Extract date'
+        tests:
+          - unique
+          - not_null
+      - name: Symbol
+        description: 'Symbol of the commodity'
+      - name: action
+        description: 'Action taken on the commodity (buy/sell)'
+      - name: quantity
+        description: 'Quantity of the commodity'
