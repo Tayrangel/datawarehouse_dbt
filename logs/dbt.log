@@ -898,3 +898,239 @@ Parsing Error
 [0m15:36:44.867866 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001969FE4B500>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001969FF3EBA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001969B828470>]}
 [0m15:36:44.868859 [debug] [MainThread]: Flushing usage events
 [0m15:36:45.745340 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:16:24.633964 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016408C91CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001640C7111F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016408D31B20>]}
+
+
+============================== 16:16:24.638061 | c67d5b7d-52a5-437d-b474-611cf09b7d80 ==============================
+[0m16:16:24.638061 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:16:24.639906 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt run', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:16:24.824173 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c67d5b7d-52a5-437d-b474-611cf09b7d80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001640AF3CD10>]}
+[0m16:16:24.878461 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c67d5b7d-52a5-437d-b474-611cf09b7d80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001640C555550>]}
+[0m16:16:24.879405 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m16:16:25.100088 [debug] [MainThread]: checksum: 5e8d1596cf4eae33c11286bbb248a722d21b9f00d8a7ced8137c642517055418, vars: {}, profile: , target: , version: 1.9.1
+[0m16:16:25.101009 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m16:16:25.102017 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'c67d5b7d-52a5-437d-b474-611cf09b7d80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001640C394320>]}
+[0m16:16:26.999516 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models
+[0m16:16:27.005228 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c67d5b7d-52a5-437d-b474-611cf09b7d80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001640CECADE0>]}
+[0m16:16:27.043957 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:16:27.062874 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:16:27.118021 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c67d5b7d-52a5-437d-b474-611cf09b7d80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001640CDE6690>]}
+[0m16:16:27.119021 [info ] [MainThread]: Found 431 macros
+[0m16:16:27.119021 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c67d5b7d-52a5-437d-b474-611cf09b7d80', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001640CEE7650>]}
+[0m16:16:27.121106 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:16:27.122020 [debug] [MainThread]: Command end result
+[0m16:16:27.138224 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:16:27.139308 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:16:27.142822 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\run_results.json
+[0m16:16:27.143830 [debug] [MainThread]: Command `dbt run` succeeded at 16:16:27.143830 after 2.80 seconds
+[0m16:16:27.143830 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001640C912540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001640C2011C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001640C6E6030>]}
+[0m16:16:27.144913 [debug] [MainThread]: Flushing usage events
+[0m16:16:28.077259 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:17:47.326902 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002725DC070E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002725FCD3C80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002725FCD1EB0>]}
+
+
+============================== 16:17:47.330917 | 3190f5be-e912-4237-927f-c06489948b43 ==============================
+[0m16:17:47.330917 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:17:47.331476 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:17:47.499323 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3190f5be-e912-4237-927f-c06489948b43', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000272613217F0>]}
+[0m16:17:47.554646 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '3190f5be-e912-4237-927f-c06489948b43', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000272616DB5F0>]}
+[0m16:17:47.555646 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m16:17:47.723019 [debug] [MainThread]: checksum: 5e8d1596cf4eae33c11286bbb248a722d21b9f00d8a7ced8137c642517055418, vars: {}, profile: , target: , version: 1.9.1
+[0m16:17:47.799335 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:17:47.800330 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:17:47.801251 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models
+[0m16:17:47.806791 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '3190f5be-e912-4237-927f-c06489948b43', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027261A44DD0>]}
+[0m16:17:47.843456 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:17:47.847465 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:17:47.865870 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3190f5be-e912-4237-927f-c06489948b43', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027261D4A0C0>]}
+[0m16:17:47.866791 [info ] [MainThread]: Found 431 macros
+[0m16:17:47.868285 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3190f5be-e912-4237-927f-c06489948b43', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000272619605F0>]}
+[0m16:17:47.869294 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:17:47.872796 [debug] [MainThread]: Command end result
+[0m16:17:47.890413 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:17:47.891413 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:17:47.896009 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\run_results.json
+[0m16:17:47.896926 [debug] [MainThread]: Command `dbt run` succeeded at 16:17:47.896926 after 0.77 seconds
+[0m16:17:47.896926 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000272618F6ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000272617111C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027261711100>]}
+[0m16:17:47.896926 [debug] [MainThread]: Flushing usage events
+[0m16:17:48.803034 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:20:21.036046 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017739342720>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001773C7B0CB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001773C7B1310>]}
+
+
+============================== 16:20:21.040045 | d0b5bc82-413b-4aff-b3bf-b6468535b78e ==============================
+[0m16:20:21.040045 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:20:21.041017 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m16:20:21.209958 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd0b5bc82-413b-4aff-b3bf-b6468535b78e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001773E5B31D0>]}
+[0m16:20:21.263802 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd0b5bc82-413b-4aff-b3bf-b6468535b78e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001773C88CE90>]}
+[0m16:20:21.264800 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m16:20:21.432789 [debug] [MainThread]: checksum: 5e8d1596cf4eae33c11286bbb248a722d21b9f00d8a7ced8137c642517055418, vars: {}, profile: , target: , version: 1.9.1
+[0m16:20:21.468370 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m16:20:21.469704 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'd0b5bc82-413b-4aff-b3bf-b6468535b78e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001773E8B5910>]}
+[0m16:20:22.088489 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbdatawarehouse.bronze_layer
+[0m16:20:22.093491 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd0b5bc82-413b-4aff-b3bf-b6468535b78e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001773E666D80>]}
+[0m16:20:22.130012 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:20:22.133013 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:20:22.152373 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd0b5bc82-413b-4aff-b3bf-b6468535b78e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001773E8538F0>]}
+[0m16:20:22.152373 [info ] [MainThread]: Found 431 macros
+[0m16:20:22.153372 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd0b5bc82-413b-4aff-b3bf-b6468535b78e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001773E812DE0>]}
+[0m16:20:22.154877 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:20:22.155883 [debug] [MainThread]: Command end result
+[0m16:20:22.174209 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:20:22.175722 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:20:22.180726 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\run_results.json
+[0m16:20:22.181727 [debug] [MainThread]: Command `dbt run` succeeded at 16:20:22.181727 after 1.35 seconds
+[0m16:20:22.181727 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017739342720>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001773E5D6C00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001773E558500>]}
+[0m16:20:22.182729 [debug] [MainThread]: Flushing usage events
+[0m16:20:23.130667 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:23:28.990257 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E82C7FFB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E82B867E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E82B84680>]}
+
+
+============================== 16:23:28.993263 | bed54828-0792-42ae-9df5-5c36147d331b ==============================
+[0m16:23:28.993263 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:23:28.994264 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:23:29.156265 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'bed54828-0792-42ae-9df5-5c36147d331b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E7FF505C0>]}
+[0m16:23:29.208265 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'bed54828-0792-42ae-9df5-5c36147d331b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E824CEDE0>]}
+[0m16:23:29.209266 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m16:23:29.366395 [debug] [MainThread]: checksum: 5e8d1596cf4eae33c11286bbb248a722d21b9f00d8a7ced8137c642517055418, vars: {}, profile: , target: , version: 1.9.1
+[0m16:23:29.401310 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m16:23:29.402843 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'bed54828-0792-42ae-9df5-5c36147d331b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E82B861B0>]}
+[0m16:23:30.019197 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbdatawarehouse.bronze_layer
+[0m16:23:30.024468 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'bed54828-0792-42ae-9df5-5c36147d331b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E844388C0>]}
+[0m16:23:30.058890 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:23:30.061870 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:23:30.078804 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'bed54828-0792-42ae-9df5-5c36147d331b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E843FE840>]}
+[0m16:23:30.078804 [info ] [MainThread]: Found 431 macros
+[0m16:23:30.079904 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'bed54828-0792-42ae-9df5-5c36147d331b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E8426DF70>]}
+[0m16:23:30.080906 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:23:30.081894 [debug] [MainThread]: Command end result
+[0m16:23:30.098806 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:23:30.101845 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:23:30.105804 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\run_results.json
+[0m16:23:30.106901 [debug] [MainThread]: Command `dbt run` succeeded at 16:23:30.106901 after 1.40 seconds
+[0m16:23:30.107897 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E8452CF50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E84207B30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E843F3CE0>]}
+[0m16:23:30.107897 [debug] [MainThread]: Flushing usage events
+[0m16:23:31.665733 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:24:07.058322 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B444D7A720>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B448426180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B448911520>]}
+
+
+============================== 16:24:07.061862 | 86d76c6e-d3f3-4159-a6a5-3febbf43f6a8 ==============================
+[0m16:24:07.061862 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:24:07.063798 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m16:24:07.211054 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '86d76c6e-d3f3-4159-a6a5-3febbf43f6a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B44813CDA0>]}
+[0m16:24:07.257666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '86d76c6e-d3f3-4159-a6a5-3febbf43f6a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B44813E060>]}
+[0m16:24:07.258666 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m16:24:07.414543 [debug] [MainThread]: checksum: 5e8d1596cf4eae33c11286bbb248a722d21b9f00d8a7ced8137c642517055418, vars: {}, profile: , target: , version: 1.9.1
+[0m16:24:07.487264 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:24:07.487264 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:24:07.488265 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbdatawarehouse.bronze_layer
+[0m16:24:07.493261 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '86d76c6e-d3f3-4159-a6a5-3febbf43f6a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B448D3F260>]}
+[0m16:24:07.528350 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:24:07.531269 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:24:07.550704 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '86d76c6e-d3f3-4159-a6a5-3febbf43f6a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B44A145FA0>]}
+[0m16:24:07.551622 [info ] [MainThread]: Found 431 macros
+[0m16:24:07.552621 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '86d76c6e-d3f3-4159-a6a5-3febbf43f6a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B448C6D2E0>]}
+[0m16:24:07.553718 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:24:07.555620 [debug] [MainThread]: Command end result
+[0m16:24:07.572624 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:24:07.576621 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:24:07.579692 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\run_results.json
+[0m16:24:07.580713 [debug] [MainThread]: Command `dbt run` succeeded at 16:24:07.579692 after 0.69 seconds
+[0m16:24:07.580713 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B44878A720>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B444B194C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B446AF1730>]}
+[0m16:24:07.580713 [debug] [MainThread]: Flushing usage events
+[0m16:24:08.218678 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:26:27.012565 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E30E64B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E1FB5BE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E17B0170>]}
+
+
+============================== 16:26:27.014341 | 787feb6a-1243-4fcb-8169-a7598ad29c3d ==============================
+[0m16:26:27.014341 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:26:27.014341 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:26:27.180531 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '787feb6a-1243-4fcb-8169-a7598ad29c3d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E304DA00>]}
+[0m16:26:27.231287 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '787feb6a-1243-4fcb-8169-a7598ad29c3d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E1AB4FE0>]}
+[0m16:26:27.231287 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m16:26:27.397611 [debug] [MainThread]: checksum: 5e8d1596cf4eae33c11286bbb248a722d21b9f00d8a7ced8137c642517055418, vars: {}, profile: , target: , version: 1.9.1
+[0m16:26:27.431567 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m16:26:27.431567 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '787feb6a-1243-4fcb-8169-a7598ad29c3d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E37F5B20>]}
+[0m16:26:28.067840 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbdatawarehouse
+[0m16:26:28.074916 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '787feb6a-1243-4fcb-8169-a7598ad29c3d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E337DBB0>]}
+[0m16:26:28.107934 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:26:28.110925 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:26:28.129847 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '787feb6a-1243-4fcb-8169-a7598ad29c3d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E3748710>]}
+[0m16:26:28.129847 [info ] [MainThread]: Found 431 macros
+[0m16:26:28.130937 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '787feb6a-1243-4fcb-8169-a7598ad29c3d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E380E780>]}
+[0m16:26:28.132840 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:26:28.134856 [debug] [MainThread]: Command end result
+[0m16:26:28.151934 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:26:28.153843 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:26:28.157904 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\run_results.json
+[0m16:26:28.157904 [debug] [MainThread]: Command `dbt run` succeeded at 16:26:28.157904 after 1.44 seconds
+[0m16:26:28.158934 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E1D29070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E1EB8D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E1E50BF0>]}
+[0m16:26:28.158934 [debug] [MainThread]: Flushing usage events
+[0m16:26:29.574611 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:27:42.067643 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131535A94C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131536A8F20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013156C54FB0>]}
+
+
+============================== 16:27:42.067643 | dd8dba33-20b8-420f-b7fe-798787eeaf96 ==============================
+[0m16:27:42.067643 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:27:42.067643 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'fail_fast': 'False', 'debug': 'True', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run --debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:27:42.232230 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'dd8dba33-20b8-420f-b7fe-798787eeaf96', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131560D1910>]}
+[0m16:27:42.292520 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'dd8dba33-20b8-420f-b7fe-798787eeaf96', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013156A4F950>]}
+[0m16:27:42.294286 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m16:27:42.448948 [debug] [MainThread]: checksum: 5e8d1596cf4eae33c11286bbb248a722d21b9f00d8a7ced8137c642517055418, vars: {}, profile: , target: , version: 1.9.1
+[0m16:27:42.522157 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:27:42.523147 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:27:42.524063 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbdatawarehouse
+[0m16:27:42.530063 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'dd8dba33-20b8-420f-b7fe-798787eeaf96', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013158389520>]}
+[0m16:27:42.558232 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:27:42.572893 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:27:42.587038 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'dd8dba33-20b8-420f-b7fe-798787eeaf96', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013158686180>]}
+[0m16:27:42.587038 [info ] [MainThread]: Found 431 macros
+[0m16:27:42.594565 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'dd8dba33-20b8-420f-b7fe-798787eeaf96', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013158679AF0>]}
+[0m16:27:42.595574 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:27:42.598655 [debug] [MainThread]: Command end result
+[0m16:27:42.608725 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:27:42.618244 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:27:42.622717 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\run_results.json
+[0m16:27:42.622717 [debug] [MainThread]: Command `dbt run` succeeded at 16:27:42.622717 after 0.75 seconds
+[0m16:27:42.625094 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131565D1D60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131565D3E60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131565D2030>]}
+[0m16:27:42.626105 [debug] [MainThread]: Flushing usage events
+[0m16:27:43.431543 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:29:20.139033 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DDFCEEFFB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DDFFDB8D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DDFF32B650>]}
+
+
+============================== 16:29:20.142918 | 3295925f-8ed9-41c5-adb2-06e7def6d16c ==============================
+[0m16:29:20.142918 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:29:20.143917 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\logs', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt ls', 'send_anonymous_usage_stats': 'True'}
+[0m16:29:20.312849 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3295925f-8ed9-41c5-adb2-06e7def6d16c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DDFF73CB90>]}
+[0m16:29:20.371275 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '3295925f-8ed9-41c5-adb2-06e7def6d16c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE0126F0B0>]}
+[0m16:29:20.373363 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m16:29:20.540351 [debug] [MainThread]: checksum: 5e8d1596cf4eae33c11286bbb248a722d21b9f00d8a7ced8137c642517055418, vars: {}, profile: , target: , version: 1.9.1
+[0m16:29:20.571432 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m16:29:20.571432 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '3295925f-8ed9-41c5-adb2-06e7def6d16c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE016B62A0>]}
+[0m16:29:21.199938 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbdatawarehouse.bronze_layer
+[0m16:29:21.205025 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '3295925f-8ed9-41c5-adb2-06e7def6d16c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE015C1B20>]}
+[0m16:29:21.242930 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\manifest.json
+[0m16:29:21.245928 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\target\semantic_manifest.json
+[0m16:29:21.268931 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3295925f-8ed9-41c5-adb2-06e7def6d16c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE01651460>]}
+[0m16:29:21.268931 [info ] [MainThread]: Found 431 macros
+[0m16:29:21.269927 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3295925f-8ed9-41c5-adb2-06e7def6d16c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE015C3170>]}
+[0m16:29:21.270970 [warn ] [MainThread]: No nodes selected!
+[0m16:29:21.271942 [debug] [MainThread]: Command `dbt ls` succeeded at 16:29:21.271942 after 1.39 seconds
+[0m16:29:21.273015 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DDFCEEFFB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE01116600>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DDFFE12570>]}
+[0m16:29:21.273015 [debug] [MainThread]: Flushing usage events
+[0m16:29:22.053015 [debug] [MainThread]: An error was encountered while trying to flush usage events

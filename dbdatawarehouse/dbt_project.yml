@@ -16,5 +16,5 @@ clean-targets:
 
 models:
   dbdatawarehouse:
-    example:
+    bronze_layer:
       +materialized: view

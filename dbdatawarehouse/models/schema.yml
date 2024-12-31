@@ -1,0 +1,33 @@
+version: 2
+
+sources:
+  - name: dbdatawarehouse
+    schema: public
+    tables:
+      - name: commodities
+        description: 'Commodity transfer table with purchase and sale'
+        columns:
+          - name: Date
+            description: 'Date of observation'
+            tests:
+              - unique
+              - not_null
+          - name: Close
+            description: 'Closing price of the commodity'
+          - name: Symbol
+            description: 'Symbol of the commodity'
+            
+      - name: transfer_commodities
+        description: 'Transfer table for commodities'
+        columns:
+          - name: Date
+            description: 'Date of observation'
+            tests:
+              - unique
+              - not_null
+          - name: Symbol
+            description: 'Symbol of the commodity'
+          - name: action
+            description: 'Action taken on the commodity (buy/sell)'
+          - name: quantity
+            description: 'Quantity of the commodity'
