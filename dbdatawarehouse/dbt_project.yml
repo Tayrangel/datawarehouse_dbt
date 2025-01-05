@@ -1,0 +1,21 @@
+name: 'dbdatawarehouse'
+version: '1.0.0'
+
+profile: 'dbdatawarehouse'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+docs-paths: ["dbt_docs"] # path to the directory where dbt will write the documentation
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  dbdatawarehouse:
+    bronze_layer:
+      +materialized: view

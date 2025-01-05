@@ -2903,3 +2903,918 @@ KeyboardInterrupt
 [0m17:29:53.780419 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016755606CC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001675735FB30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000167558F9460>]}
 [0m17:29:53.780419 [debug] [MainThread]: Flushing usage events
 [0m17:29:54.583838 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:08:42.866699 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020ECBAB1FA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020ECF90DB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020ECF90DC10>]}
+
+
+============================== 21:08:42.887150 | 3e3c1c0d-1f71-4d45-8b33-cd59908400e6 ==============================
+[0m21:08:42.887150 [info ] [MainThread]: Running with dbt=1.9.1
+[0m21:08:42.888335 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt docs generate', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m21:08:42.889337 [error] [MainThread]: Encountered an error:
+Runtime Error
+  dbt_project.yml does not parse to a dictionary
+[0m21:08:42.890339 [debug] [MainThread]: Command `dbt docs generate` failed at 21:08:42.890339 after 0.36 seconds
+[0m21:08:42.891235 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020ECFA1BDD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020ECF6DFCE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020ECF90FA10>]}
+[0m21:08:42.891235 [debug] [MainThread]: Flushing usage events
+[0m21:08:44.523444 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:09:46.602437 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000233622D8B30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002336260B470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002336229A9F0>]}
+
+
+============================== 21:09:46.605840 | b9643894-c4f9-4652-ba4a-8d521e6c82ec ==============================
+[0m21:09:46.605840 [info ] [MainThread]: Running with dbt=1.9.1
+[0m21:09:46.606753 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\dbdatawarehouse\\logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt docs generate', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:09:47.031454 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b9643894-c4f9-4652-ba4a-8d521e6c82ec', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002336264EA20>]}
+[0m21:09:47.078119 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b9643894-c4f9-4652-ba4a-8d521e6c82ec', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023362B0F110>]}
+[0m21:09:47.086757 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m21:09:47.505097 [debug] [MainThread]: checksum: 5e8d1596cf4eae33c11286bbb248a722d21b9f00d8a7ced8137c642517055418, vars: {}, profile: , target: , version: 1.9.1
+[0m21:09:47.609222 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m21:09:47.610232 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'b9643894-c4f9-4652-ba4a-8d521e6c82ec', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023362776C30>]}
+[0m21:09:50.547407 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b9643894-c4f9-4652-ba4a-8d521e6c82ec', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023364529A00>]}
+[0m21:09:50.785450 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b9643894-c4f9-4652-ba4a-8d521e6c82ec', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023364552B40>]}
+[0m21:09:50.785450 [info ] [MainThread]: Found 3 models, 1 seed, 10 data tests, 2 sources, 431 macros
+[0m21:09:50.786450 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b9643894-c4f9-4652-ba4a-8d521e6c82ec', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000233643808F0>]}
+[0m21:09:50.788577 [info ] [MainThread]: 
+[0m21:09:50.789607 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:09:50.790793 [info ] [MainThread]: 
+[0m21:09:50.791802 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m21:09:50.794801 [debug] [ThreadPool]: Acquiring new postgres connection 'list_dbdatawarehouse_public'
+[0m21:09:53.864256 [debug] [ThreadPool]: Using postgres connection "list_dbdatawarehouse_public"
+[0m21:09:53.865275 [debug] [ThreadPool]: On list_dbdatawarehouse_public: BEGIN
+[0m21:09:53.865275 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:09:58.213710 [debug] [ThreadPool]: SQL status: BEGIN in 4.348 seconds
+[0m21:09:58.214712 [debug] [ThreadPool]: Using postgres connection "list_dbdatawarehouse_public"
+[0m21:09:58.215805 [debug] [ThreadPool]: On list_dbdatawarehouse_public: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "dbdatawarehouse", "target_name": "dev", "connection_name": "list_dbdatawarehouse_public"} */
+select
+      'dbdatawarehouse' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'dbdatawarehouse' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'dbdatawarehouse' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m21:09:58.426497 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.209 seconds
+[0m21:09:58.431194 [debug] [ThreadPool]: On list_dbdatawarehouse_public: ROLLBACK
+[0m21:09:58.628518 [debug] [ThreadPool]: On list_dbdatawarehouse_public: Close
+[0m21:09:58.636397 [debug] [MainThread]: Using postgres connection "master"
+[0m21:09:58.637508 [debug] [MainThread]: On master: BEGIN
+[0m21:09:58.637508 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:10:00.537925 [debug] [MainThread]: SQL status: BEGIN in 1.900 seconds
+[0m21:10:00.538913 [debug] [MainThread]: Using postgres connection "master"
+[0m21:10:00.540936 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "dbdatawarehouse", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m21:10:01.200809 [debug] [MainThread]: SQL status: SELECT 4 in 0.659 seconds
+[0m21:10:01.205807 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b9643894-c4f9-4652-ba4a-8d521e6c82ec', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000233643B1B50>]}
+[0m21:10:01.207319 [debug] [MainThread]: On master: ROLLBACK
+[0m21:10:01.406212 [debug] [MainThread]: On master: Close
+[0m21:10:01.420031 [debug] [Thread-1 (]: Began running node model.dbdatawarehouse.stg_commodities
+[0m21:10:01.422045 [debug] [Thread-1 (]: Acquiring new postgres connection 'model.dbdatawarehouse.stg_commodities'
+[0m21:10:01.423036 [debug] [Thread-1 (]: Began compiling node model.dbdatawarehouse.stg_commodities
+[0m21:10:01.437038 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbdatawarehouse.stg_commodities"
+[0m21:10:01.438044 [debug] [Thread-1 (]: Began executing node model.dbdatawarehouse.stg_commodities
+[0m21:10:01.439044 [debug] [Thread-1 (]: Finished running node model.dbdatawarehouse.stg_commodities
+[0m21:10:01.440131 [debug] [Thread-1 (]: Began running node model.dbdatawarehouse.stg_transfer_commodities
+[0m21:10:01.440131 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbdatawarehouse.stg_commodities, now model.dbdatawarehouse.stg_transfer_commodities)
+[0m21:10:01.441131 [debug] [Thread-1 (]: Began compiling node model.dbdatawarehouse.stg_transfer_commodities
+[0m21:10:01.443120 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbdatawarehouse.stg_transfer_commodities"
+[0m21:10:01.444117 [debug] [Thread-1 (]: Began executing node model.dbdatawarehouse.stg_transfer_commodities
+[0m21:10:01.445057 [debug] [Thread-1 (]: Finished running node model.dbdatawarehouse.stg_transfer_commodities
+[0m21:10:01.446568 [debug] [Thread-1 (]: Began running node seed.dbdatawarehouse.transfer_commodities
+[0m21:10:01.446568 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbdatawarehouse.stg_transfer_commodities, now seed.dbdatawarehouse.transfer_commodities)
+[0m21:10:01.447591 [debug] [Thread-1 (]: Began compiling node seed.dbdatawarehouse.transfer_commodities
+[0m21:10:01.450658 [debug] [Thread-1 (]: Began executing node seed.dbdatawarehouse.transfer_commodities
+[0m21:10:01.451659 [debug] [Thread-1 (]: Finished running node seed.dbdatawarehouse.transfer_commodities
+[0m21:10:01.451659 [debug] [Thread-1 (]: Began running node test.dbdatawarehouse.source_not_null_dbdatawarehouse_commodities_Date.795b5282e9
+[0m21:10:01.452667 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly seed.dbdatawarehouse.transfer_commodities, now test.dbdatawarehouse.source_not_null_dbdatawarehouse_commodities_Date.795b5282e9)
+[0m21:10:01.452667 [debug] [Thread-1 (]: Began compiling node test.dbdatawarehouse.source_not_null_dbdatawarehouse_commodities_Date.795b5282e9
+[0m21:10:01.464347 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbdatawarehouse.source_not_null_dbdatawarehouse_commodities_Date.795b5282e9"
+[0m21:10:01.465356 [debug] [Thread-1 (]: Began executing node test.dbdatawarehouse.source_not_null_dbdatawarehouse_commodities_Date.795b5282e9
+[0m21:10:01.466356 [debug] [Thread-1 (]: Finished running node test.dbdatawarehouse.source_not_null_dbdatawarehouse_commodities_Date.795b5282e9
+[0m21:10:01.466949 [debug] [Thread-1 (]: Began running node test.dbdatawarehouse.source_not_null_dbdatawarehouse_transfer_commodities_Date.b86cf2bf01
+[0m21:10:01.466949 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.dbdatawarehouse.source_not_null_dbdatawarehouse_commodities_Date.795b5282e9, now test.dbdatawarehouse.source_not_null_dbdatawarehouse_transfer_commodities_Date.b86cf2bf01)
+[0m21:10:01.467998 [debug] [Thread-1 (]: Began compiling node test.dbdatawarehouse.source_not_null_dbdatawarehouse_transfer_commodities_Date.b86cf2bf01
+[0m21:10:01.471033 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbdatawarehouse.source_not_null_dbdatawarehouse_transfer_commodities_Date.b86cf2bf01"
+[0m21:10:01.472031 [debug] [Thread-1 (]: Began executing node test.dbdatawarehouse.source_not_null_dbdatawarehouse_transfer_commodities_Date.b86cf2bf01
+[0m21:10:01.472965 [debug] [Thread-1 (]: Finished running node test.dbdatawarehouse.source_not_null_dbdatawarehouse_transfer_commodities_Date.b86cf2bf01
+[0m21:10:01.474043 [debug] [Thread-1 (]: Began running node test.dbdatawarehouse.source_unique_dbdatawarehouse_commodities_Date.a8111f496f
+[0m21:10:01.474043 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.dbdatawarehouse.source_not_null_dbdatawarehouse_transfer_commodities_Date.b86cf2bf01, now test.dbdatawarehouse.source_unique_dbdatawarehouse_commodities_Date.a8111f496f)
+[0m21:10:01.474043 [debug] [Thread-1 (]: Began compiling node test.dbdatawarehouse.source_unique_dbdatawarehouse_commodities_Date.a8111f496f
+[0m21:10:01.480641 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbdatawarehouse.source_unique_dbdatawarehouse_commodities_Date.a8111f496f"
+[0m21:10:01.481726 [debug] [Thread-1 (]: Began executing node test.dbdatawarehouse.source_unique_dbdatawarehouse_commodities_Date.a8111f496f
+[0m21:10:01.482640 [debug] [Thread-1 (]: Finished running node test.dbdatawarehouse.source_unique_dbdatawarehouse_commodities_Date.a8111f496f
+[0m21:10:01.482640 [debug] [Thread-1 (]: Began running node test.dbdatawarehouse.source_unique_dbdatawarehouse_transfer_commodities_Date.5b565b881b
+[0m21:10:01.483741 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.dbdatawarehouse.source_unique_dbdatawarehouse_commodities_Date.a8111f496f, now test.dbdatawarehouse.source_unique_dbdatawarehouse_transfer_commodities_Date.5b565b881b)
+[0m21:10:01.483741 [debug] [Thread-1 (]: Began compiling node test.dbdatawarehouse.source_unique_dbdatawarehouse_transfer_commodities_Date.5b565b881b
+[0m21:10:01.488743 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbdatawarehouse.source_unique_dbdatawarehouse_transfer_commodities_Date.5b565b881b"
+[0m21:10:01.489658 [debug] [Thread-1 (]: Began executing node test.dbdatawarehouse.source_unique_dbdatawarehouse_transfer_commodities_Date.5b565b881b
+[0m21:10:01.490655 [debug] [Thread-1 (]: Finished running node test.dbdatawarehouse.source_unique_dbdatawarehouse_transfer_commodities_Date.5b565b881b
+[0m21:10:01.490655 [debug] [Thread-1 (]: Began running node test.dbdatawarehouse.not_null_stg_commodities_extract_dt.4002fcff5b
+[0m21:10:01.490655 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.dbdatawarehouse.source_unique_dbdatawarehouse_transfer_commodities_Date.5b565b881b, now test.dbdatawarehouse.not_null_stg_commodities_extract_dt.4002fcff5b)
+[0m21:10:01.491661 [debug] [Thread-1 (]: Began compiling node test.dbdatawarehouse.not_null_stg_commodities_extract_dt.4002fcff5b
+[0m21:10:01.497804 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbdatawarehouse.not_null_stg_commodities_extract_dt.4002fcff5b"
+[0m21:10:01.499302 [debug] [Thread-1 (]: Began executing node test.dbdatawarehouse.not_null_stg_commodities_extract_dt.4002fcff5b
+[0m21:10:01.500310 [debug] [Thread-1 (]: Finished running node test.dbdatawarehouse.not_null_stg_commodities_extract_dt.4002fcff5b
+[0m21:10:01.500310 [debug] [Thread-1 (]: Began running node test.dbdatawarehouse.unique_stg_commodities_extract_dt.fe11f3e66d
+[0m21:10:01.501308 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.dbdatawarehouse.not_null_stg_commodities_extract_dt.4002fcff5b, now test.dbdatawarehouse.unique_stg_commodities_extract_dt.fe11f3e66d)
+[0m21:10:01.501308 [debug] [Thread-1 (]: Began compiling node test.dbdatawarehouse.unique_stg_commodities_extract_dt.fe11f3e66d
+[0m21:10:01.505308 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbdatawarehouse.unique_stg_commodities_extract_dt.fe11f3e66d"
+[0m21:10:01.506308 [debug] [Thread-1 (]: Began executing node test.dbdatawarehouse.unique_stg_commodities_extract_dt.fe11f3e66d
+[0m21:10:01.506813 [debug] [Thread-1 (]: Finished running node test.dbdatawarehouse.unique_stg_commodities_extract_dt.fe11f3e66d
+[0m21:10:01.506813 [debug] [Thread-1 (]: Began running node model.dbdatawarehouse.fct_commodities
+[0m21:10:01.507819 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.dbdatawarehouse.unique_stg_commodities_extract_dt.fe11f3e66d, now model.dbdatawarehouse.fct_commodities)
+[0m21:10:01.507819 [debug] [Thread-1 (]: Began compiling node model.dbdatawarehouse.fct_commodities
+[0m21:10:01.510824 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbdatawarehouse.fct_commodities"
+[0m21:10:01.511825 [debug] [Thread-1 (]: Began executing node model.dbdatawarehouse.fct_commodities
+[0m21:10:01.512937 [debug] [Thread-1 (]: Finished running node model.dbdatawarehouse.fct_commodities
+[0m21:10:01.512937 [debug] [Thread-1 (]: Began running node test.dbdatawarehouse.not_null_stg_transfer_commodities_extract_dt.1baf08f55f
+[0m21:10:01.513937 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbdatawarehouse.fct_commodities, now test.dbdatawarehouse.not_null_stg_transfer_commodities_extract_dt.1baf08f55f)
+[0m21:10:01.513937 [debug] [Thread-1 (]: Began compiling node test.dbdatawarehouse.not_null_stg_transfer_commodities_extract_dt.1baf08f55f
+[0m21:10:01.518446 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbdatawarehouse.not_null_stg_transfer_commodities_extract_dt.1baf08f55f"
+[0m21:10:01.518446 [debug] [Thread-1 (]: Began executing node test.dbdatawarehouse.not_null_stg_transfer_commodities_extract_dt.1baf08f55f
+[0m21:10:01.520630 [debug] [Thread-1 (]: Finished running node test.dbdatawarehouse.not_null_stg_transfer_commodities_extract_dt.1baf08f55f
+[0m21:10:01.522653 [debug] [Thread-1 (]: Began running node test.dbdatawarehouse.unique_stg_transfer_commodities_extract_dt.8ca27b9d41
+[0m21:10:01.524637 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.dbdatawarehouse.not_null_stg_transfer_commodities_extract_dt.1baf08f55f, now test.dbdatawarehouse.unique_stg_transfer_commodities_extract_dt.8ca27b9d41)
+[0m21:10:01.525636 [debug] [Thread-1 (]: Began compiling node test.dbdatawarehouse.unique_stg_transfer_commodities_extract_dt.8ca27b9d41
+[0m21:10:01.536429 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbdatawarehouse.unique_stg_transfer_commodities_extract_dt.8ca27b9d41"
+[0m21:10:01.538434 [debug] [Thread-1 (]: Began executing node test.dbdatawarehouse.unique_stg_transfer_commodities_extract_dt.8ca27b9d41
+[0m21:10:01.539461 [debug] [Thread-1 (]: Finished running node test.dbdatawarehouse.unique_stg_transfer_commodities_extract_dt.8ca27b9d41
+[0m21:10:01.539461 [debug] [Thread-1 (]: Began running node test.dbdatawarehouse.not_null_fct_commodities_extract_dt.6d0a6cccd4
+[0m21:10:01.540453 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.dbdatawarehouse.unique_stg_transfer_commodities_extract_dt.8ca27b9d41, now test.dbdatawarehouse.not_null_fct_commodities_extract_dt.6d0a6cccd4)
+[0m21:10:01.540453 [debug] [Thread-1 (]: Began compiling node test.dbdatawarehouse.not_null_fct_commodities_extract_dt.6d0a6cccd4
+[0m21:10:01.544450 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbdatawarehouse.not_null_fct_commodities_extract_dt.6d0a6cccd4"
+[0m21:10:01.545435 [debug] [Thread-1 (]: Began executing node test.dbdatawarehouse.not_null_fct_commodities_extract_dt.6d0a6cccd4
+[0m21:10:01.546437 [debug] [Thread-1 (]: Finished running node test.dbdatawarehouse.not_null_fct_commodities_extract_dt.6d0a6cccd4
+[0m21:10:01.546437 [debug] [Thread-1 (]: Began running node test.dbdatawarehouse.unique_fct_commodities_extract_dt.3d3e126fe9
+[0m21:10:01.546940 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.dbdatawarehouse.not_null_fct_commodities_extract_dt.6d0a6cccd4, now test.dbdatawarehouse.unique_fct_commodities_extract_dt.3d3e126fe9)
+[0m21:10:01.546940 [debug] [Thread-1 (]: Began compiling node test.dbdatawarehouse.unique_fct_commodities_extract_dt.3d3e126fe9
+[0m21:10:01.551972 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbdatawarehouse.unique_fct_commodities_extract_dt.3d3e126fe9"
+[0m21:10:01.553246 [debug] [Thread-1 (]: Began executing node test.dbdatawarehouse.unique_fct_commodities_extract_dt.3d3e126fe9
+[0m21:10:01.554241 [debug] [Thread-1 (]: Finished running node test.dbdatawarehouse.unique_fct_commodities_extract_dt.3d3e126fe9
+[0m21:10:01.555223 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:10:01.555223 [debug] [MainThread]: Connection 'list_dbdatawarehouse_public' was properly closed.
+[0m21:10:01.555223 [debug] [MainThread]: Connection 'test.dbdatawarehouse.unique_fct_commodities_extract_dt.3d3e126fe9' was properly closed.
+[0m21:10:01.557755 [debug] [MainThread]: Command end result
+[0m21:10:01.637345 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbdatawarehouse\target\manifest.json
+[0m21:10:01.640435 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbdatawarehouse\target\semantic_manifest.json
+[0m21:10:01.649333 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbdatawarehouse\target\run_results.json
+[0m21:10:02.106428 [debug] [MainThread]: Acquiring new postgres connection 'generate_catalog'
+[0m21:10:02.107437 [info ] [MainThread]: Building catalog
+[0m21:10:02.118242 [debug] [ThreadPool]: Acquiring new postgres connection 'dbdatawarehouse.information_schema'
+[0m21:10:02.129166 [debug] [ThreadPool]: Using postgres connection "dbdatawarehouse.information_schema"
+[0m21:10:02.130180 [debug] [ThreadPool]: On dbdatawarehouse.information_schema: BEGIN
+[0m21:10:02.131174 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:10:03.697980 [debug] [ThreadPool]: SQL status: BEGIN in 1.567 seconds
+[0m21:10:03.699991 [debug] [ThreadPool]: Using postgres connection "dbdatawarehouse.information_schema"
+[0m21:10:03.701991 [debug] [ThreadPool]: On dbdatawarehouse.information_schema: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "dbdatawarehouse", "target_name": "dev", "connection_name": "dbdatawarehouse.information_schema"} */
+
+    
+    
+
+    select
+        'dbdatawarehouse' as table_database,
+        sch.nspname as table_schema,
+        tbl.relname as table_name,
+        case tbl.relkind
+            when 'v' then 'VIEW'
+            when 'm' then 'MATERIALIZED VIEW'
+            else 'BASE TABLE'
+        end as table_type,
+        tbl_desc.description as table_comment,
+        col.attname as column_name,
+        col.attnum as column_index,
+        pg_catalog.format_type(col.atttypid, col.atttypmod) as column_type,
+        col_desc.description as column_comment,
+        pg_get_userbyid(tbl.relowner) as table_owner
+
+    from pg_catalog.pg_namespace sch
+    join pg_catalog.pg_class tbl on tbl.relnamespace = sch.oid
+    join pg_catalog.pg_attribute col on col.attrelid = tbl.oid
+    left outer join pg_catalog.pg_description tbl_desc on (tbl_desc.objoid = tbl.oid and tbl_desc.objsubid = 0)
+    left outer join pg_catalog.pg_description col_desc on (col_desc.objoid = tbl.oid and col_desc.objsubid = col.attnum)
+    where ((upper(sch.nspname) = upper('public') and
+           upper(tbl.relname) = upper('transfer_commodities')) or (upper(sch.nspname) = upper('public') and
+           upper(tbl.relname) = upper('fct_commodities')) or (upper(sch.nspname) = upper('public') and
+           upper(tbl.relname) = upper('stg_commodities')) or (upper(sch.nspname) = upper('public') and
+           upper(tbl.relname) = upper('stg_transfer_commodities')) or (upper(sch.nspname) = upper('public') and
+           upper(tbl.relname) = upper('commodities')))
+      and not pg_is_other_temp_schema(sch.oid) -- not a temporary schema belonging to another session
+      and tbl.relpersistence in ('p', 'u') -- [p]ermanent table or [u]nlogged table. Exclude [t]emporary tables
+      and tbl.relkind in ('r', 'v', 'f', 'p', 'm') -- o[r]dinary table, [v]iew, [f]oreign table, [p]artitioned table, [m]aterialized view. Other values are [i]ndex, [S]equence, [c]omposite type, [t]OAST table
+      and col.attnum > 0 -- negative numbers are used for system columns such as oid
+      and not col.attisdropped -- column as not been dropped
+
+    order by
+        sch.nspname,
+        tbl.relname,
+        col.attnum
+[0m21:10:03.905652 [debug] [ThreadPool]: SQL status: SELECT 21 in 0.203 seconds
+[0m21:10:03.919603 [debug] [ThreadPool]: On dbdatawarehouse.information_schema: ROLLBACK
+[0m21:10:04.113360 [debug] [ThreadPool]: On dbdatawarehouse.information_schema: Close
+[0m21:10:04.130004 [debug] [MainThread]: Wrote artifact CatalogArtifact to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbdatawarehouse\target\catalog.json
+[0m21:10:04.154943 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbdatawarehouse\target\manifest.json
+[0m21:10:04.157455 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbdatawarehouse\target\semantic_manifest.json
+[0m21:10:04.157455 [info ] [MainThread]: Catalog written to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbdatawarehouse\target\catalog.json
+[0m21:10:04.159457 [debug] [MainThread]: Command `dbt docs generate` succeeded at 21:10:04.159457 after 17.74 seconds
+[0m21:10:04.159457 [debug] [MainThread]: Connection 'generate_catalog' was properly closed.
+[0m21:10:04.160574 [debug] [MainThread]: Connection 'dbdatawarehouse.information_schema' was properly closed.
+[0m21:10:04.161571 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000233608DC440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002335EF12480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023362E4ACF0>]}
+[0m21:10:04.161571 [debug] [MainThread]: Flushing usage events
+[0m21:10:05.135781 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:10:18.232754 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DBA9389520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DBAC9E2F30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DBAC82A1E0>]}
+
+
+============================== 21:10:18.236297 | d1ac887c-70a3-4a48-a920-a9501ad8f8a6 ==============================
+[0m21:10:18.236297 [info ] [MainThread]: Running with dbt=1.9.1
+[0m21:10:18.237019 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\dbdatawarehouse\\logs', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt docs serve', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:10:18.394314 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd1ac887c-70a3-4a48-a920-a9501ad8f8a6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DBAE0DB6E0>]}
+[0m21:10:18.441592 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd1ac887c-70a3-4a48-a920-a9501ad8f8a6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DBAC9E2F30>]}
+[0m21:11:21.576328 [error] [MainThread]: Encountered an error:
+
+[0m21:11:21.589984 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\.venv\Lib\site-packages\dbt\cli\requires.py", line 153, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\.venv\Lib\site-packages\dbt\cli\requires.py", line 103, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\.venv\Lib\site-packages\dbt\cli\requires.py", line 235, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\.venv\Lib\site-packages\dbt\cli\requires.py", line 264, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\.venv\Lib\site-packages\dbt\cli\requires.py", line 311, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\.venv\Lib\site-packages\dbt\cli\main.py", line 301, in docs_serve
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\.venv\Lib\site-packages\dbt\task\docs\serve.py", line 29, in run
+    httpd.serve_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 240, in serve_forever
+    self._handle_request_noblock()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 318, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 349, in process_request
+    self.finish_request(request, client_address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 761, in __init__
+    self.handle()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 404, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2288.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+[0m21:11:21.591264 [debug] [MainThread]: Command `dbt docs serve` failed at 21:11:21.591264 after 63.53 seconds
+[0m21:11:21.592297 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DBAC34DB20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DBACCDF920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DBAE2700B0>]}
+[0m21:11:21.592297 [debug] [MainThread]: Flushing usage events
+[0m21:11:22.383463 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:07:32.417069 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEBDCBA1B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEBD190560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEBDD133B0>]}
+
+
+============================== 18:07:32.427600 | 08be0ae1-d40d-4c6f-9885-2e9438286b69 ==============================
+[0m18:07:32.427600 [info ] [MainThread]: Running with dbt=1.9.1
+[0m18:07:32.433146 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\dbdatawarehouse\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt run', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m18:07:32.760344 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '08be0ae1-d40d-4c6f-9885-2e9438286b69', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEBA52A1E0>]}
+[0m18:07:32.821698 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '08be0ae1-d40d-4c6f-9885-2e9438286b69', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEBF181F40>]}
+[0m18:07:32.832904 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m18:07:33.138502 [debug] [MainThread]: checksum: 5e8d1596cf4eae33c11286bbb248a722d21b9f00d8a7ced8137c642517055418, vars: {}, profile: , target: , version: 1.9.1
+[0m18:07:34.519012 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m18:07:34.528485 [debug] [MainThread]: Partial parsing: updated file: dbdatawarehouse://seeds\transfer_commodities.csv
+[0m18:07:34.737005 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '08be0ae1-d40d-4c6f-9885-2e9438286b69', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEBF6F6420>]}
+[0m18:07:34.821457 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbdatawarehouse\target\manifest.json
+[0m18:07:34.853070 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbdatawarehouse\target\semantic_manifest.json
+[0m18:07:35.056966 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '08be0ae1-d40d-4c6f-9885-2e9438286b69', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEBF5F6C90>]}
+[0m18:07:35.056966 [info ] [MainThread]: Found 3 models, 10 data tests, 1 seed, 2 sources, 431 macros
+[0m18:07:35.056966 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '08be0ae1-d40d-4c6f-9885-2e9438286b69', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEBF24B530>]}
+[0m18:07:35.056966 [info ] [MainThread]: 
+[0m18:07:35.056966 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m18:07:35.056966 [info ] [MainThread]: 
+[0m18:07:35.056966 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m18:07:35.056966 [debug] [ThreadPool]: Acquiring new postgres connection 'list_dbdatawarehouse'
+[0m18:07:37.775388 [debug] [ThreadPool]: Using postgres connection "list_dbdatawarehouse"
+[0m18:07:37.775388 [debug] [ThreadPool]: On list_dbdatawarehouse: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "dbdatawarehouse", "target_name": "dev", "connection_name": "list_dbdatawarehouse"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m18:07:37.775388 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m18:07:39.680347 [debug] [ThreadPool]: SQL status: SELECT 4 in 1.903 seconds
+[0m18:07:39.696190 [debug] [ThreadPool]: On list_dbdatawarehouse: Close
+[0m18:07:39.696190 [debug] [ThreadPool]: Acquiring new postgres connection 'list_dbdatawarehouse_public'
+[0m18:07:39.696190 [debug] [ThreadPool]: Using postgres connection "list_dbdatawarehouse_public"
+[0m18:07:39.696190 [debug] [ThreadPool]: On list_dbdatawarehouse_public: BEGIN
+[0m18:07:39.696190 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m18:07:41.167321 [debug] [ThreadPool]: SQL status: BEGIN in 1.463 seconds
+[0m18:07:41.167321 [debug] [ThreadPool]: Using postgres connection "list_dbdatawarehouse_public"
+[0m18:07:41.174860 [debug] [ThreadPool]: On list_dbdatawarehouse_public: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "dbdatawarehouse", "target_name": "dev", "connection_name": "list_dbdatawarehouse_public"} */
+select
+      'dbdatawarehouse' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'dbdatawarehouse' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'dbdatawarehouse' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m18:07:41.370112 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.205 seconds
+[0m18:07:41.370112 [debug] [ThreadPool]: On list_dbdatawarehouse_public: ROLLBACK
+[0m18:07:41.572526 [debug] [ThreadPool]: On list_dbdatawarehouse_public: Close
+[0m18:07:41.589664 [debug] [MainThread]: Using postgres connection "master"
+[0m18:07:41.589664 [debug] [MainThread]: On master: BEGIN
+[0m18:07:41.589664 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:07:43.187725 [debug] [MainThread]: SQL status: BEGIN in 1.596 seconds
+[0m18:07:43.188843 [debug] [MainThread]: Using postgres connection "master"
+[0m18:07:43.189789 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "dbdatawarehouse", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m18:07:43.381488 [debug] [MainThread]: SQL status: SELECT 4 in 0.203 seconds
+[0m18:07:43.397497 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '08be0ae1-d40d-4c6f-9885-2e9438286b69', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEBF536810>]}
+[0m18:07:43.397497 [debug] [MainThread]: On master: ROLLBACK
+[0m18:07:43.588880 [debug] [MainThread]: Using postgres connection "master"
+[0m18:07:43.588880 [debug] [MainThread]: On master: BEGIN
+[0m18:07:43.994837 [debug] [MainThread]: SQL status: BEGIN in 0.395 seconds
+[0m18:07:43.994837 [debug] [MainThread]: On master: COMMIT
+[0m18:07:43.994837 [debug] [MainThread]: Using postgres connection "master"
+[0m18:07:43.994837 [debug] [MainThread]: On master: COMMIT
+[0m18:07:44.198158 [debug] [MainThread]: SQL status: COMMIT in 0.202 seconds
+[0m18:07:44.198158 [debug] [MainThread]: On master: Close
+[0m18:07:44.198158 [debug] [Thread-1 (]: Began running node model.dbdatawarehouse.stg_commodities
+[0m18:07:44.213896 [info ] [Thread-1 (]: 1 of 3 START sql view model public.stg_commodities ............................. [RUN]
+[0m18:07:44.213896 [debug] [Thread-1 (]: Acquiring new postgres connection 'model.dbdatawarehouse.stg_commodities'
+[0m18:07:44.213896 [debug] [Thread-1 (]: Began compiling node model.dbdatawarehouse.stg_commodities
+[0m18:07:44.213896 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbdatawarehouse.stg_commodities"
+[0m18:07:44.213896 [debug] [Thread-1 (]: Began executing node model.dbdatawarehouse.stg_commodities
+[0m18:07:44.257014 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbdatawarehouse.stg_commodities"
+[0m18:07:44.257014 [debug] [Thread-1 (]: Using postgres connection "model.dbdatawarehouse.stg_commodities"
+[0m18:07:44.257014 [debug] [Thread-1 (]: On model.dbdatawarehouse.stg_commodities: BEGIN
+[0m18:07:44.257014 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m18:07:46.364756 [debug] [Thread-1 (]: SQL status: BEGIN in 2.099 seconds
+[0m18:07:46.366858 [debug] [Thread-1 (]: Using postgres connection "model.dbdatawarehouse.stg_commodities"
+[0m18:07:46.367869 [debug] [Thread-1 (]: On model.dbdatawarehouse.stg_commodities: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "dbdatawarehouse", "target_name": "dev", "node_id": "model.dbdatawarehouse.stg_commodities"} */
+
+  create view "dbdatawarehouse"."public"."stg_commodities__dbt_tmp"
+    
+    
+  as (
+    WITH
+    source AS (
+        SELECT
+            *
+        FROM "dbdatawarehouse"."public"."commodities"
+    )
+
+    ,transformed AS (
+        SELECT
+            CAST(TO_CHAR(date, 'YYYY-MM-DD') AS date) AS extract_dt
+            ,ROUND(CAST("Close" AS NUMERIC), 2) AS close_vl
+            ,symbol
+        FROM source
+    )
+
+SELECT
+    *
+FROM transformed
+  );
+[0m18:07:46.556853 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.200 seconds
+[0m18:07:46.576577 [debug] [Thread-1 (]: Using postgres connection "model.dbdatawarehouse.stg_commodities"
+[0m18:07:46.576577 [debug] [Thread-1 (]: On model.dbdatawarehouse.stg_commodities: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "dbdatawarehouse", "target_name": "dev", "node_id": "model.dbdatawarehouse.stg_commodities"} */
+alter table "dbdatawarehouse"."public"."stg_commodities" rename to "stg_commodities__dbt_backup"
+[0m18:07:46.775562 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.198 seconds
+[0m18:07:46.775562 [debug] [Thread-1 (]: Using postgres connection "model.dbdatawarehouse.stg_commodities"
+[0m18:07:46.775562 [debug] [Thread-1 (]: On model.dbdatawarehouse.stg_commodities: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "dbdatawarehouse", "target_name": "dev", "node_id": "model.dbdatawarehouse.stg_commodities"} */
+alter table "dbdatawarehouse"."public"."stg_commodities__dbt_tmp" rename to "stg_commodities"
+[0m18:07:46.978680 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.200 seconds
+[0m18:07:46.994304 [debug] [Thread-1 (]: On model.dbdatawarehouse.stg_commodities: COMMIT
+[0m18:07:46.994304 [debug] [Thread-1 (]: Using postgres connection "model.dbdatawarehouse.stg_commodities"
+[0m18:07:46.994304 [debug] [Thread-1 (]: On model.dbdatawarehouse.stg_commodities: COMMIT
+[0m18:07:47.197278 [debug] [Thread-1 (]: SQL status: COMMIT in 0.201 seconds
+[0m18:07:47.214958 [debug] [Thread-1 (]: Applying DROP to: "dbdatawarehouse"."public"."stg_commodities__dbt_backup"
+[0m18:07:47.218968 [debug] [Thread-1 (]: Using postgres connection "model.dbdatawarehouse.stg_commodities"
+[0m18:07:47.218968 [debug] [Thread-1 (]: On model.dbdatawarehouse.stg_commodities: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "dbdatawarehouse", "target_name": "dev", "node_id": "model.dbdatawarehouse.stg_commodities"} */
+drop view if exists "dbdatawarehouse"."public"."stg_commodities__dbt_backup" cascade
+[0m18:07:47.420241 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.200 seconds
+[0m18:07:47.425272 [debug] [Thread-1 (]: On model.dbdatawarehouse.stg_commodities: Close
+[0m18:07:47.433331 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '08be0ae1-d40d-4c6f-9885-2e9438286b69', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEBA5292B0>]}
+[0m18:07:47.434295 [info ] [Thread-1 (]: 1 of 3 OK created sql view model public.stg_commodities ........................ [[32mCREATE VIEW[0m in 3.21s]
+[0m18:07:47.436356 [debug] [Thread-1 (]: Finished running node model.dbdatawarehouse.stg_commodities
+[0m18:07:47.436356 [debug] [Thread-1 (]: Began running node model.dbdatawarehouse.stg_transfer_commodities
+[0m18:07:47.437332 [info ] [Thread-1 (]: 2 of 3 START sql view model public.stg_transfer_commodities .................... [RUN]
+[0m18:07:47.438258 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbdatawarehouse.stg_commodities, now model.dbdatawarehouse.stg_transfer_commodities)
+[0m18:07:47.438258 [debug] [Thread-1 (]: Began compiling node model.dbdatawarehouse.stg_transfer_commodities
+[0m18:07:47.441335 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbdatawarehouse.stg_transfer_commodities"
+[0m18:07:47.443260 [debug] [Thread-1 (]: Began executing node model.dbdatawarehouse.stg_transfer_commodities
+[0m18:07:47.446355 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbdatawarehouse.stg_transfer_commodities"
+[0m18:07:47.446355 [debug] [Thread-1 (]: Using postgres connection "model.dbdatawarehouse.stg_transfer_commodities"
+[0m18:07:47.446355 [debug] [Thread-1 (]: On model.dbdatawarehouse.stg_transfer_commodities: BEGIN
+[0m18:07:47.446355 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m18:07:48.908333 [debug] [Thread-1 (]: SQL status: BEGIN in 1.460 seconds
+[0m18:07:48.909689 [debug] [Thread-1 (]: Using postgres connection "model.dbdatawarehouse.stg_transfer_commodities"
+[0m18:07:48.910699 [debug] [Thread-1 (]: On model.dbdatawarehouse.stg_transfer_commodities: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "dbdatawarehouse", "target_name": "dev", "node_id": "model.dbdatawarehouse.stg_transfer_commodities"} */
+
+  create view "dbdatawarehouse"."public"."stg_transfer_commodities__dbt_tmp"
+    
+    
+  as (
+    WITH
+    source AS (
+        SELECT
+            *
+        FROM "dbdatawarehouse"."public"."transfer_commodities"
+    )
+
+    ,transformed AS (
+        SELECT
+            CAST(date AS date) AS extract_dt
+            ,symbol
+            ,action
+            ,quantity
+        FROM source
+    )
+
+SELECT
+    *
+FROM transformed
+  );
+[0m18:07:49.126992 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.215 seconds
+[0m18:07:49.134000 [debug] [Thread-1 (]: Using postgres connection "model.dbdatawarehouse.stg_transfer_commodities"
+[0m18:07:49.134000 [debug] [Thread-1 (]: On model.dbdatawarehouse.stg_transfer_commodities: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "dbdatawarehouse", "target_name": "dev", "node_id": "model.dbdatawarehouse.stg_transfer_commodities"} */
+alter table "dbdatawarehouse"."public"."stg_transfer_commodities" rename to "stg_transfer_commodities__dbt_backup"
+[0m18:07:49.681315 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.558 seconds
+[0m18:07:49.697022 [debug] [Thread-1 (]: Using postgres connection "model.dbdatawarehouse.stg_transfer_commodities"
+[0m18:07:49.697022 [debug] [Thread-1 (]: On model.dbdatawarehouse.stg_transfer_commodities: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "dbdatawarehouse", "target_name": "dev", "node_id": "model.dbdatawarehouse.stg_transfer_commodities"} */
+alter table "dbdatawarehouse"."public"."stg_transfer_commodities__dbt_tmp" rename to "stg_transfer_commodities"
+[0m18:07:49.895241 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.195 seconds
+[0m18:07:49.899253 [debug] [Thread-1 (]: On model.dbdatawarehouse.stg_transfer_commodities: COMMIT
+[0m18:07:49.900257 [debug] [Thread-1 (]: Using postgres connection "model.dbdatawarehouse.stg_transfer_commodities"
+[0m18:07:49.900257 [debug] [Thread-1 (]: On model.dbdatawarehouse.stg_transfer_commodities: COMMIT
+[0m18:07:50.102937 [debug] [Thread-1 (]: SQL status: COMMIT in 0.200 seconds
+[0m18:07:50.109034 [debug] [Thread-1 (]: Applying DROP to: "dbdatawarehouse"."public"."stg_transfer_commodities__dbt_backup"
+[0m18:07:50.109034 [debug] [Thread-1 (]: Using postgres connection "model.dbdatawarehouse.stg_transfer_commodities"
+[0m18:07:50.110036 [debug] [Thread-1 (]: On model.dbdatawarehouse.stg_transfer_commodities: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "dbdatawarehouse", "target_name": "dev", "node_id": "model.dbdatawarehouse.stg_transfer_commodities"} */
+drop view if exists "dbdatawarehouse"."public"."stg_transfer_commodities__dbt_backup" cascade
+[0m18:07:50.296757 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.197 seconds
+[0m18:07:50.310456 [debug] [Thread-1 (]: On model.dbdatawarehouse.stg_transfer_commodities: Close
+[0m18:07:50.310456 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '08be0ae1-d40d-4c6f-9885-2e9438286b69', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEBFB8A480>]}
+[0m18:07:50.310456 [info ] [Thread-1 (]: 2 of 3 OK created sql view model public.stg_transfer_commodities ............... [[32mCREATE VIEW[0m in 2.87s]
+[0m18:07:50.312462 [debug] [Thread-1 (]: Finished running node model.dbdatawarehouse.stg_transfer_commodities
+[0m18:07:50.312462 [debug] [Thread-1 (]: Began running node model.dbdatawarehouse.fct_commodities
+[0m18:07:50.312462 [info ] [Thread-1 (]: 3 of 3 START sql view model public.fct_commodities ............................. [RUN]
+[0m18:07:50.312462 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbdatawarehouse.stg_transfer_commodities, now model.dbdatawarehouse.fct_commodities)
+[0m18:07:50.312462 [debug] [Thread-1 (]: Began compiling node model.dbdatawarehouse.fct_commodities
+[0m18:07:50.312462 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbdatawarehouse.fct_commodities"
+[0m18:07:50.312462 [debug] [Thread-1 (]: Began executing node model.dbdatawarehouse.fct_commodities
+[0m18:07:50.312462 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbdatawarehouse.fct_commodities"
+[0m18:07:50.327896 [debug] [Thread-1 (]: Using postgres connection "model.dbdatawarehouse.fct_commodities"
+[0m18:07:50.327896 [debug] [Thread-1 (]: On model.dbdatawarehouse.fct_commodities: BEGIN
+[0m18:07:50.328894 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m18:07:51.793417 [debug] [Thread-1 (]: SQL status: BEGIN in 1.473 seconds
+[0m18:07:51.793417 [debug] [Thread-1 (]: Using postgres connection "model.dbdatawarehouse.fct_commodities"
+[0m18:07:51.803226 [debug] [Thread-1 (]: On model.dbdatawarehouse.fct_commodities: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "dbdatawarehouse", "target_name": "dev", "node_id": "model.dbdatawarehouse.fct_commodities"} */
+
+  create view "dbdatawarehouse"."public"."fct_commodities__dbt_tmp"
+    
+    
+  as (
+    WITH
+    commodities AS (
+        SELECT
+            *
+        FROM "dbdatawarehouse"."public"."stg_commodities"
+    )
+
+    ,transfer_commodities AS (
+        SELECT
+            *
+        FROM "dbdatawarehouse"."public"."stg_transfer_commodities"
+    )
+
+    ,join_tables AS (
+        SELECT
+            c.extract_dt
+            ,c.symbol
+            ,c.close_vl
+            ,tc.action
+            ,tc.quantity
+        FROM commodities AS c
+            LEFT JOIN transfer_commodities AS tc
+                ON c.extract_dt = tc.extract_dt
+                AND tc.symbol = c.symbol
+    )
+
+    ,aggregation AS (
+        SELECT
+            *
+            ,(quantity * close_vl) AS total_vl
+            ,CASE
+                WHEN action = 'sell' THEN (quantity * close_vl)
+                ELSE (quantity * close_vl) * -1
+            END AS profit_vl
+        FROM join_tables
+    )
+
+SELECT
+    *
+FROM aggregation
+  );
+[0m18:07:51.994970 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.197 seconds
+[0m18:07:51.994970 [debug] [Thread-1 (]: Using postgres connection "model.dbdatawarehouse.fct_commodities"
+[0m18:07:51.994970 [debug] [Thread-1 (]: On model.dbdatawarehouse.fct_commodities: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "dbdatawarehouse", "target_name": "dev", "node_id": "model.dbdatawarehouse.fct_commodities"} */
+alter table "dbdatawarehouse"."public"."fct_commodities__dbt_tmp" rename to "fct_commodities"
+[0m18:07:52.260343 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.253 seconds
+[0m18:07:52.264444 [debug] [Thread-1 (]: On model.dbdatawarehouse.fct_commodities: COMMIT
+[0m18:07:52.265445 [debug] [Thread-1 (]: Using postgres connection "model.dbdatawarehouse.fct_commodities"
+[0m18:07:52.266440 [debug] [Thread-1 (]: On model.dbdatawarehouse.fct_commodities: COMMIT
+[0m18:07:52.450978 [debug] [Thread-1 (]: SQL status: COMMIT in 0.195 seconds
+[0m18:07:52.464771 [debug] [Thread-1 (]: Applying DROP to: "dbdatawarehouse"."public"."fct_commodities__dbt_backup"
+[0m18:07:52.464771 [debug] [Thread-1 (]: Using postgres connection "model.dbdatawarehouse.fct_commodities"
+[0m18:07:52.464771 [debug] [Thread-1 (]: On model.dbdatawarehouse.fct_commodities: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "dbdatawarehouse", "target_name": "dev", "node_id": "model.dbdatawarehouse.fct_commodities"} */
+drop view if exists "dbdatawarehouse"."public"."fct_commodities__dbt_backup" cascade
+[0m18:07:52.650690 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.195 seconds
+[0m18:07:52.666638 [debug] [Thread-1 (]: On model.dbdatawarehouse.fct_commodities: Close
+[0m18:07:52.666638 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '08be0ae1-d40d-4c6f-9885-2e9438286b69', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEBFB63C20>]}
+[0m18:07:52.666638 [info ] [Thread-1 (]: 3 of 3 OK created sql view model public.fct_commodities ........................ [[32mCREATE VIEW[0m in 2.35s]
+[0m18:07:52.666638 [debug] [Thread-1 (]: Finished running node model.dbdatawarehouse.fct_commodities
+[0m18:07:52.666638 [debug] [MainThread]: Using postgres connection "master"
+[0m18:07:52.666638 [debug] [MainThread]: On master: BEGIN
+[0m18:07:52.666638 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m18:07:54.113859 [debug] [MainThread]: SQL status: BEGIN in 1.439 seconds
+[0m18:07:54.114881 [debug] [MainThread]: On master: COMMIT
+[0m18:07:54.115877 [debug] [MainThread]: Using postgres connection "master"
+[0m18:07:54.116876 [debug] [MainThread]: On master: COMMIT
+[0m18:07:54.310837 [debug] [MainThread]: SQL status: COMMIT in 0.194 seconds
+[0m18:07:54.312185 [debug] [MainThread]: On master: Close
+[0m18:07:54.312185 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m18:07:54.314327 [debug] [MainThread]: Connection 'list_dbdatawarehouse' was properly closed.
+[0m18:07:54.314327 [debug] [MainThread]: Connection 'list_dbdatawarehouse_public' was properly closed.
+[0m18:07:54.314327 [debug] [MainThread]: Connection 'model.dbdatawarehouse.fct_commodities' was properly closed.
+[0m18:07:54.316341 [info ] [MainThread]: 
+[0m18:07:54.316341 [info ] [MainThread]: Finished running 3 view models in 0 hours 0 minutes and 19.26 seconds (19.26s).
+[0m18:07:54.318140 [debug] [MainThread]: Command end result
+[0m18:07:54.351494 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbdatawarehouse\target\manifest.json
+[0m18:07:54.353937 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbdatawarehouse\target\semantic_manifest.json
+[0m18:07:54.365105 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbdatawarehouse\target\run_results.json
+[0m18:07:54.365105 [info ] [MainThread]: 
+[0m18:07:54.367115 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m18:07:54.367115 [info ] [MainThread]: 
+[0m18:07:54.367115 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+[0m18:07:54.369122 [debug] [MainThread]: Command `dbt run` succeeded at 18:07:54.369122 after 22.18 seconds
+[0m18:07:54.369122 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEBAF31AF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEBA322120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EEBDD8DA00>]}
+[0m18:07:54.371134 [debug] [MainThread]: Flushing usage events
+[0m18:07:55.240226 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:11:17.761909 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A835A181A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A83590F140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A83518DCA0>]}
+
+
+============================== 18:11:17.764913 | ede49a9d-5b73-4233-9631-23eca339aae8 ==============================
+[0m18:11:17.764913 [info ] [MainThread]: Running with dbt=1.9.1
+[0m18:11:17.767176 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\Tayhana Rangel\\Documents\\TI\\Projetos\\datawarehouse_dbt\\dbdatawarehouse\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt seed', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m18:11:17.930132 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ede49a9d-5b73-4233-9631-23eca339aae8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A833F36780>]}
+[0m18:11:17.983133 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ede49a9d-5b73-4233-9631-23eca339aae8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A83384EC90>]}
+[0m18:11:17.984134 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m18:11:18.147132 [debug] [MainThread]: checksum: 5e8d1596cf4eae33c11286bbb248a722d21b9f00d8a7ced8137c642517055418, vars: {}, profile: , target: , version: 1.9.1
+[0m18:11:18.284132 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m18:11:18.284132 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m18:11:18.332133 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ede49a9d-5b73-4233-9631-23eca339aae8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A835CA6EA0>]}
+[0m18:11:18.410130 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbdatawarehouse\target\manifest.json
+[0m18:11:18.414135 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbdatawarehouse\target\semantic_manifest.json
+[0m18:11:18.439514 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ede49a9d-5b73-4233-9631-23eca339aae8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A835C32030>]}
+[0m18:11:18.440514 [info ] [MainThread]: Found 3 models, 10 data tests, 1 seed, 2 sources, 431 macros
+[0m18:11:18.441515 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ede49a9d-5b73-4233-9631-23eca339aae8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A835C7C890>]}
+[0m18:11:18.442514 [info ] [MainThread]: 
+[0m18:11:18.443518 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m18:11:18.444522 [info ] [MainThread]: 
+[0m18:11:18.445532 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m18:11:18.446410 [debug] [ThreadPool]: Acquiring new postgres connection 'list_dbdatawarehouse'
+[0m18:11:18.505024 [debug] [ThreadPool]: Using postgres connection "list_dbdatawarehouse"
+[0m18:11:18.506012 [debug] [ThreadPool]: On list_dbdatawarehouse: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "dbdatawarehouse", "target_name": "dev", "connection_name": "list_dbdatawarehouse"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m18:11:18.506012 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m18:11:21.052507 [debug] [ThreadPool]: SQL status: SELECT 4 in 2.546 seconds
+[0m18:11:21.056519 [debug] [ThreadPool]: On list_dbdatawarehouse: Close
+[0m18:11:21.061525 [debug] [ThreadPool]: Acquiring new postgres connection 'list_dbdatawarehouse_public'
+[0m18:11:21.070614 [debug] [ThreadPool]: Using postgres connection "list_dbdatawarehouse_public"
+[0m18:11:21.071608 [debug] [ThreadPool]: On list_dbdatawarehouse_public: BEGIN
+[0m18:11:21.071608 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m18:11:22.561990 [debug] [ThreadPool]: SQL status: BEGIN in 1.490 seconds
+[0m18:11:22.563097 [debug] [ThreadPool]: Using postgres connection "list_dbdatawarehouse_public"
+[0m18:11:22.564106 [debug] [ThreadPool]: On list_dbdatawarehouse_public: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "dbdatawarehouse", "target_name": "dev", "connection_name": "list_dbdatawarehouse_public"} */
+select
+      'dbdatawarehouse' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'dbdatawarehouse' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'dbdatawarehouse' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m18:11:22.772996 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.208 seconds
+[0m18:11:22.776009 [debug] [ThreadPool]: On list_dbdatawarehouse_public: ROLLBACK
+[0m18:11:22.976278 [debug] [ThreadPool]: On list_dbdatawarehouse_public: Close
+[0m18:11:22.985369 [debug] [MainThread]: Using postgres connection "master"
+[0m18:11:22.985369 [debug] [MainThread]: On master: BEGIN
+[0m18:11:22.986369 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:11:24.415553 [debug] [MainThread]: SQL status: BEGIN in 1.430 seconds
+[0m18:11:24.416661 [debug] [MainThread]: Using postgres connection "master"
+[0m18:11:24.418656 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "dbdatawarehouse", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m18:11:24.618517 [debug] [MainThread]: SQL status: SELECT 4 in 0.199 seconds
+[0m18:11:24.623803 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ede49a9d-5b73-4233-9631-23eca339aae8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A83309F350>]}
+[0m18:11:24.624801 [debug] [MainThread]: On master: ROLLBACK
+[0m18:11:24.819591 [debug] [MainThread]: Using postgres connection "master"
+[0m18:11:24.820721 [debug] [MainThread]: On master: BEGIN
+[0m18:11:25.210759 [debug] [MainThread]: SQL status: BEGIN in 0.389 seconds
+[0m18:11:25.211857 [debug] [MainThread]: On master: COMMIT
+[0m18:11:25.212858 [debug] [MainThread]: Using postgres connection "master"
+[0m18:11:25.213864 [debug] [MainThread]: On master: COMMIT
+[0m18:11:25.409029 [debug] [MainThread]: SQL status: COMMIT in 0.195 seconds
+[0m18:11:25.409931 [debug] [MainThread]: On master: Close
+[0m18:11:25.415926 [debug] [Thread-1 (]: Began running node seed.dbdatawarehouse.transfer_commodities
+[0m18:11:25.417003 [info ] [Thread-1 (]: 1 of 1 START seed file public.transfer_commodities ............................. [RUN]
+[0m18:11:25.418928 [debug] [Thread-1 (]: Acquiring new postgres connection 'seed.dbdatawarehouse.transfer_commodities'
+[0m18:11:25.420015 [debug] [Thread-1 (]: Began compiling node seed.dbdatawarehouse.transfer_commodities
+[0m18:11:25.421008 [debug] [Thread-1 (]: Began executing node seed.dbdatawarehouse.transfer_commodities
+[0m18:11:25.454005 [debug] [Thread-1 (]: Using postgres connection "seed.dbdatawarehouse.transfer_commodities"
+[0m18:11:25.454005 [debug] [Thread-1 (]: On seed.dbdatawarehouse.transfer_commodities: BEGIN
+[0m18:11:25.454005 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m18:11:26.908382 [debug] [Thread-1 (]: SQL status: BEGIN in 1.453 seconds
+[0m18:11:26.909622 [debug] [Thread-1 (]: Using postgres connection "seed.dbdatawarehouse.transfer_commodities"
+[0m18:11:26.910653 [debug] [Thread-1 (]: On seed.dbdatawarehouse.transfer_commodities: /* {"app": "dbt", "dbt_version": "1.9.1", "profile_name": "dbdatawarehouse", "target_name": "dev", "node_id": "seed.dbdatawarehouse.transfer_commodities"} */
+truncate table "dbdatawarehouse"."public"."transfer_commodities"
+[0m18:11:27.108677 [debug] [Thread-1 (]: SQL status: TRUNCATE TABLE in 0.197 seconds
+[0m18:11:27.133773 [debug] [Thread-1 (]: Using postgres connection "seed.dbdatawarehouse.transfer_commodities"
+[0m18:11:27.133773 [debug] [Thread-1 (]: On seed.dbdatawarehouse.transfer_commodities: 
+          insert into "dbdatawarehouse"."public"."transfer_commodities" ("date", "symbol", "action", "quantity") values
+          (%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s)
+      ...
+[0m18:11:27.335414 [debug] [Thread-1 (]: SQL status: INSERT 0 15 in 0.201 seconds
+[0m18:11:27.347520 [debug] [Thread-1 (]: Writing runtime SQL for node "seed.dbdatawarehouse.transfer_commodities"
+[0m18:11:27.360504 [debug] [Thread-1 (]: On seed.dbdatawarehouse.transfer_commodities: COMMIT
+[0m18:11:27.360504 [debug] [Thread-1 (]: Using postgres connection "seed.dbdatawarehouse.transfer_commodities"
+[0m18:11:27.361503 [debug] [Thread-1 (]: On seed.dbdatawarehouse.transfer_commodities: COMMIT
+[0m18:11:27.556991 [debug] [Thread-1 (]: SQL status: COMMIT in 0.195 seconds
+[0m18:11:27.562006 [debug] [Thread-1 (]: On seed.dbdatawarehouse.transfer_commodities: Close
+[0m18:11:27.564000 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ede49a9d-5b73-4233-9631-23eca339aae8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A833EB3BC0>]}
+[0m18:11:27.564000 [info ] [Thread-1 (]: 1 of 1 OK loaded seed file public.transfer_commodities ......................... [[32mINSERT 15[0m in 2.14s]
+[0m18:11:27.565180 [debug] [Thread-1 (]: Finished running node seed.dbdatawarehouse.transfer_commodities
+[0m18:11:27.567186 [debug] [MainThread]: Using postgres connection "master"
+[0m18:11:27.567186 [debug] [MainThread]: On master: BEGIN
+[0m18:11:27.567186 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m18:11:29.013799 [debug] [MainThread]: SQL status: BEGIN in 1.446 seconds
+[0m18:11:29.014798 [debug] [MainThread]: On master: COMMIT
+[0m18:11:29.015797 [debug] [MainThread]: Using postgres connection "master"
+[0m18:11:29.016794 [debug] [MainThread]: On master: COMMIT
+[0m18:11:29.213074 [debug] [MainThread]: SQL status: COMMIT in 0.195 seconds
+[0m18:11:29.214148 [debug] [MainThread]: On master: Close
+[0m18:11:29.215111 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m18:11:29.216101 [debug] [MainThread]: Connection 'list_dbdatawarehouse' was properly closed.
+[0m18:11:29.217064 [debug] [MainThread]: Connection 'list_dbdatawarehouse_public' was properly closed.
+[0m18:11:29.217064 [debug] [MainThread]: Connection 'seed.dbdatawarehouse.transfer_commodities' was properly closed.
+[0m18:11:29.217064 [info ] [MainThread]: 
+[0m18:11:29.218145 [info ] [MainThread]: Finished running 1 seed in 0 hours 0 minutes and 10.77 seconds (10.77s).
+[0m18:11:29.220053 [debug] [MainThread]: Command end result
+[0m18:11:29.242054 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbdatawarehouse\target\manifest.json
+[0m18:11:29.244508 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbdatawarehouse\target\semantic_manifest.json
+[0m18:11:29.250409 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Tayhana Rangel\Documents\TI\Projetos\datawarehouse_dbt\dbdatawarehouse\target\run_results.json
+[0m18:11:29.250409 [info ] [MainThread]: 
+[0m18:11:29.252021 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m18:11:29.253032 [info ] [MainThread]: 
+[0m18:11:29.254032 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m18:11:29.255030 [debug] [MainThread]: Command `dbt seed` succeeded at 18:11:29.255030 after 11.67 seconds
+[0m18:11:29.256030 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A833F85790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A83748A420>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A83748A450>]}
+[0m18:11:29.257029 [debug] [MainThread]: Flushing usage events
+[0m18:11:30.023041 [debug] [MainThread]: An error was encountered while trying to flush usage events

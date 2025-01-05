@@ -1,9 +1,7 @@
 
     
     
-    
-    create table "dbdatawarehouse"."public"."transfer_commodities" ("date" date,"symbol" text,"action" text,"quantity" integer)
-  ;
+    truncate table "dbdatawarehouse"."public"."transfer_commodities";
     -- dbt seed --
     
           insert into "dbdatawarehouse"."public"."transfer_commodities" ("date", "symbol", "action", "quantity") values
